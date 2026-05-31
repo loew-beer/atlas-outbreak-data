@@ -1,5 +1,17 @@
 # Changelog
 
+## v5 -- 2026-05-31
+
+- Health-zone stacked epi curve: daily confirmed cases broken down by top 6 zones (Bunia, Rwampara, Mongbalu, Nyakunde, Katwa, Butembo). Added to dashboard C. Time tab and PDF situation report.
+- Collection-to-release sequencing turnaround: median 15 days (range 4-18) from sample collection to Pathoplexus release. Added to dashboard G. Genomics tab and PDF.
+- Province choropleth: PDF maps now shade health zones by province (Ituri, Nord-Kivu, Sud-Kivu) with distinct colours and province legend.
+- Death count corrected to CDC 2026-05-29 figures: 19 confirmed deaths (17 DRC + 2 Uganda), 223 suspected, 242 total.
+- Cross-validation pipeline: automated pre-publish check runs before every sync and every daily briefing. Flags discrepancies between INSP, WHO, CDC.
+- Data access requirements document: specifies exactly what data, system, and contact is needed to unlock each dormant dashboard module.
+- Ingestion pipeline: drop-in CSV processing for linelist, contacts, lab results, genomic linkage.
+- Epi curve CSS fix: missing class definitions added to dashboard stylesheet.
+- JSON fetch 404 fix: absolute path for VPS serving context.
+
 ## v4 -- 2026-05-30
 
 - INRB-UMIE data integration: daily INSP SitRep data (21 health zones, 12 reporting days)
