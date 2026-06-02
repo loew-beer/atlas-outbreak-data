@@ -11,7 +11,7 @@ This is an **evidence scan**, not a systematic review. It does not follow PRISMA
 - Daily notification-date case counts by health zone (21 zones, 12 reporting days)
 - Contact tracing cumulative totals, hospitalisation data
 - INSP data manually transcribed from PDF situation reports; transcription errors possible
-- Supplemented by WHO Disease Outbreak News (DON602, DON603) for national-level figures
+- Supplemented by WHO Disease Outbreak News (DON602, DON603, DON605) for national-level figures
 - Uganda data from Uganda MOH via Reuters/WHO briefing
 
 ### Population Denominators
