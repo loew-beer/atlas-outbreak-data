@@ -1,0 +1,346 @@
+{
+  "metadata": {
+    "title": "BDBV Outbreak Summary Data",
+    "last_updated": "2026-06-02T19:00:01Z",
+    "sources": {
+      "epidemiological": "CDC situation summary (06-01), WHO DON605 (05-29), DRC MoH via Al Jazeera (05-30), INSP SitRep via INRB-UMIE (05-27)",
+      "genomic": "Pathoplexus, Virological.org, NCBI GenBank",
+      "response": "WHO, MSF, Africa CDC, CDC HAN 00530"
+    },
+    "version": "2.0",
+    "outbreak_id": "DRC-BDBV-2026-001",
+    "data_quality": {
+      "overall": "MODERATE",
+      "case_confirmation_rate": 0.129,
+      "genomic_coverage": 0.12,
+      "reporting_completeness": "PARTIAL",
+      "notes": "Low confirmation rate reflects limited BDBV-specific diagnostic capacity. Reporting delays of 3-7 days in conflict-affected health zones."
+    }
+  },
+  "outbreak_overview": {
+    "pathogen": "Bundibugyo ebolavirus (BDBV)",
+    "index_case_date": "2026-04-24",
+    "declaration_date": "2026-05-15",
+    "pheic_date": "2026-05-17",
+    "status": "ACTIVE",
+    "who_grade": "GRADE 3",
+    "outbreak_day": 36
+  },
+  "situation": {
+    "cases": {
+      "confirmed": 332,
+      "confirmed_drc": 321,
+      "confirmed_uganda": 11,
+      "probable_uganda": 1,
+      "suspected_drc_moh": 1028,
+      "suspected_cdc_revised": 116,
+      "total": 1360,
+      "suspected_note": "DRC MoH reports 1,028 suspected (05-30). CDC reports 116 after continued data revision (06-01). The 116 is a cleaned dataset, not the current surveillance burden."
+    },
+    "deaths": {
+      "confirmed": 49,
+      "confirmed_drc": 48,
+      "confirmed_uganda": 1,
+      "probable_uganda": 1,
+      "suspected_drc_moh": 220,
+      "suspected_drc_moh_note": "Minimum estimate: DRC MoH reports >220 (at least 220)",
+      "suspected_cdc_revised": 0,
+      "total": 49,
+      "suspected_note": "DRC MoH reports >220 suspected deaths (05-30) - using 220 as conservative minimum. CDC shows 0 after data revision. WHO DON605 reports 223 suspected deaths (05-27)."
+    },
+    "cfr": {
+      "confirmed_only": 0.148,
+      "combined": 0.232,
+      "caveat": "CFR unreliable: right-censoring, low confirmation rate (12.9%), reclassification ongoing"
+    },
+    "cross_border": {
+      "countries": 2,
+      "uganda_cases": 11,
+      "uganda_probable": 1,
+      "first_date": "2026-05-19"
+    },
+    "trend": "INCREASING",
+    "doubling_time_days": null,
+    "doubling_time_note": "Insufficient data for reliable estimate; active conflict zones distort reporting"
+  },
+  "temporal": {
+    "epi_curve_onset": [
+      {
+        "week": "2026-W17",
+        "start": "2026-04-20",
+        "confirmed": 1,
+        "suspected": 0
+      },
+      {
+        "week": "2026-W18",
+        "start": "2026-04-27",
+        "confirmed": 3,
+        "suspected": 8
+      },
+      {
+        "week": "2026-W19",
+        "start": "2026-05-04",
+        "confirmed": 12,
+        "suspected": 65
+      },
+      {
+        "week": "2026-W20",
+        "start": "2026-05-11",
+        "confirmed": 35,
+        "suspected": 210
+      },
+      {
+        "week": "2026-W21",
+        "start": "2026-05-18",
+        "confirmed": 52,
+        "suspected": 380
+      },
+      {
+        "week": "2026-W22",
+        "start": "2026-05-25",
+        "confirmed": 31,
+        "suspected": 243
+      }
+    ],
+    "epi_curve_note": "Onset dates estimated from WHO situation reports; individual-level onset data not available. Week 22 incomplete (3 days).",
+    "delays": {
+      "onset_to_notification_median_days": 5,
+      "notification_to_confirmation_median_days": 4,
+      "confirmation_to_isolation_median_days": 2,
+      "caveat": "Delay estimates derived from aggregate reports, not individual case data"
+    },
+    "interventions": [
+      {
+        "date": "2026-04-24",
+        "event": "Index case onset (HCW, Bunia)",
+        "type": "milestone"
+      },
+      {
+        "date": "2026-05-15",
+        "event": "DRC outbreak declaration",
+        "type": "declaration"
+      },
+      {
+        "date": "2026-05-17",
+        "event": "WHO PHEIC declared",
+        "type": "declaration"
+      },
+      {
+        "date": "2026-05-18",
+        "event": "First Pathoplexus genomes released",
+        "type": "genomic"
+      },
+      {
+        "date": "2026-05-19",
+        "event": "First Uganda cases confirmed",
+        "type": "cross_border"
+      },
+      {
+        "date": "2026-05-22",
+        "event": "WHO DG Member State briefing",
+        "type": "response"
+      },
+      {
+        "date": "2026-05-28",
+        "event": "WHO expert consultation: therapeutics/vaccines",
+        "type": "response"
+      }
+    ]
+  },
+  "geographic": {
+    "drc": {
+      "provinces": [
+        {
+          "name": "Ituri",
+          "cases": 650,
+          "deaths": 150,
+          "health_zones": [
+            "Bunia",
+            "Rwampara",
+            "Mongwalu",
+            "Nyakunde",
+            "Hoho",
+            "Lumumba"
+          ],
+          "status": "epicenter",
+          "population_estimate": 5200000
+        },
+        {
+          "name": "Nord-Kivu",
+          "cases": 350,
+          "deaths": 80,
+          "health_zones": [
+            "Butembo",
+            "Mabalako",
+            "Katwa"
+          ],
+          "health_zones_unverified": [
+            "Goma"
+          ],
+          "status": "expanding",
+          "note": "Province case allocation is a working estimate, not official confirmed count. Goma-specific status requires verification from DRC MOH/WHO subnational data.",
+          "population_estimate": 8900000
+        },
+        {
+          "name": "Sud-Kivu",
+          "cases": 40,
+          "deaths": 11,
+          "health_zones": [
+            "Bukavu"
+          ],
+          "status": "limited",
+          "population_estimate": 6500000
+        }
+      ]
+    },
+    "uganda": {
+      "regions": [
+        {
+          "name": "Central Region",
+          "district": "Kampala",
+          "cases": 9,
+          "deaths": 1,
+          "travel_linked": 6,
+          "population_estimate": 3500000
+        }
+      ]
+    },
+    "border_distance_km": 30,
+    "facilities_in_epicenter": "Data from GRID3/INRB-UMIE (see data_provenance)"
+  },
+  "demographics": {
+    "available": false,
+    "note": "Individual-level demographic data not available from aggregate WHO reports. Age/sex breakdown requires linelist access from DRC MoH.",
+    "known": {
+      "index_case": "Healthcare worker, Bunia",
+      "hcw_cases": "Multiple reported (exact count unavailable)",
+      "children_under_5": "Reported but unquantified"
+    }
+  },
+  "lab": {
+    "diagnostic_capacity": {
+      "bdbv_specific_rdt": false,
+      "pcr_available": true,
+      "pcr_locations": [
+        "INRB Kinshasa",
+        "Bunia field lab"
+      ],
+      "turnaround_days": "3-7 (estimated)",
+      "note": "Standard Ebola RDTs (designed for Zaire ebolavirus) do not reliably detect BDBV"
+    },
+    "testing_cascade": {
+      "samples_collected": null,
+      "samples_tested": null,
+      "positive": 332,
+      "negative": null,
+      "pending": null,
+      "rejected": null,
+      "note": "Detailed testing cascade not published in WHO situation reports"
+    },
+    "confirmation_rate": 0.129
+  },
+  "genomics": {
+    "local_analysis": {
+      "sequences": 34,
+      "source": "NCBI GenBank",
+      "years": "2007, 2012",
+      "status": "Complete (historical only)"
+    },
+    "available_2026": {
+      "sequences": 16,
+      "source": "Pathoplexus",
+      "collection_dates": "2026-05-03 to 2026-05-16",
+      "countries": {
+        "DRC": 14,
+        "Uganda": 1,
+        "Germany": 1
+      },
+      "status": "Available, NOT YET incorporated into local analysis",
+      "data_use_terms": "Pathoplexus Restricted licence",
+      "lead_contacts": "Prof. Mbala-Kingebeni (INRB), Dr. Ssewanyana (CPHL Uganda)"
+    },
+    "total_pathoplexus": 60,
+    "sequencing_coverage_percent": 11.9,
+    "sequencing_coverage_note": "16 of 134 confirmed cases sequenced (12%)",
+    "raccoon_pipeline": "MAFFT alignment + IQ-TREE2 (HKY+gamma)",
+    "preliminary_findings": {
+      "tmrca": "Late February to late April 2026",
+      "distinct_clade": true,
+      "adar_editing": "Evidence in 1 genome (4 T-to-C mutations)"
+    },
+    "transmission_caveat": "Current genomes sufficient for preliminary phylogenetic placement, not for robust transmission-chain inference"
+  },
+  "contacts": {
+    "available": false,
+    "note": "Contact tracing data not available from aggregate reports. WHO reports indicate contact tracing is active but incomplete in insecure areas.",
+    "targets": {
+      "contacts_listed_within_24h": 0.8,
+      "contacts_followed_daily": 0.95,
+      "note": "WHO/MSF standard targets"
+    }
+  },
+  "response": {
+    "vaccination": {
+      "bdbv_vaccine_available": false,
+      "candidate_status": "WHO expert consultation 2026-05-28; candidates under evaluation",
+      "cross_protection_rvsv_zebov": "Not clinically established for BDBV",
+      "timeline": "Africa CDC estimates BDBV-specific vaccine by end of 2026"
+    },
+    "therapeutics": {
+      "approved_for_bdbv": false,
+      "candidates": [
+        "MBP134 (broad-spectrum mAb)",
+        "Maftivimab",
+        "Remdesivir (investigational)"
+      ],
+      "status": "Under WHO expert review"
+    },
+    "ipc": {
+      "status": "Active in affected health facilities",
+      "gaps": "Conflict zones limit access"
+    },
+    "coordination": {
+      "who": "Grade 3 emergency response",
+      "msf": "Field operations in Ituri and Nord-Kivu",
+      "africa_cdc": "Regional coordination and vaccine development",
+      "cdc": "HAN 00530 issued, technical assistance"
+    }
+  },
+  "data_gaps": [
+    {
+      "category": "Linelist",
+      "severity": "CRITICAL",
+      "description": "No individual case data available; all analysis from aggregates"
+    },
+    {
+      "category": "Demographics",
+      "severity": "HIGH",
+      "description": "Age/sex/occupation breakdown not published"
+    },
+    {
+      "category": "Contact tracing",
+      "severity": "HIGH",
+      "description": "Tracing cascade metrics not available from public reports"
+    },
+    {
+      "category": "Lab cascade",
+      "severity": "HIGH",
+      "description": "Testing numbers (collected/pending/rejected) not published"
+    },
+    {
+      "category": "Genomic",
+      "severity": "MEDIUM",
+      "description": "16 sequences available but not yet in local analysis; 12% coverage"
+    },
+    {
+      "category": "Geographic precision",
+      "severity": "MEDIUM",
+      "description": "Health zone level only; village/GPS coordinates not available"
+    },
+    {
+      "category": "Population denominators",
+      "severity": "MEDIUM",
+      "description": "WorldPop estimates used; no census-level data for attack rates"
+    }
+  ]
+}

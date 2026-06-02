@@ -1,0 +1,15 @@
+DISCLAIMER
+==========
+
+This situation report is an automated evidence scan produced by the Atlas
+Outbreak Intelligence platform. It does not constitute official guidance
+from WHO, DRC MOH, Uganda MOH, MSF, or any other agency.
+
+Data quality depends on source reporting completeness and timeliness.
+INSP SitRep data is manually transcribed from PDF; transcription errors
+possible. Population denominators are modelled (WorldPop). Attack rates
+use combined cases and are not adjusted for diagnostic confirmation or
+displacement. Genomic counts are snapshot-dependent.
+
+All figures provisional. Licence: CC-BY-4.0 for analysis.
+Contact: office@loew-beer.at | outbreak.loew-beer.at
