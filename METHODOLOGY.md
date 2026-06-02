@@ -45,9 +45,9 @@ This is an **evidence scan**, not a systematic review. It does not follow PRISMA
 
 ## Limitations
 
-1. Notification date, not onset date -- true epi curve shape unknown
+1. Notification date, not onset date - true epi curve shape unknown
 2. Province-level case allocations are working estimates, not official MOH figures
-3. INSP data manually transcribed from PDF -- possible transcription errors
+3. INSP data manually transcribed from PDF - possible transcription errors
 4. WorldPop denominators are modelled estimates, not census data
 5. Conflict-driven displacement makes population denominators unreliable
 6. Genomic coverage biased toward Ituri and early May 2026
