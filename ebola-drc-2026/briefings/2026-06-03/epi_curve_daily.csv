@@ -13,4 +13,6 @@ date,new_confirmed,new_suspected,reclassification_note,raw_delta_confirmed,raw_d
 2026-05-27,4,0,Decrease reflects case reclassification/removal,4,-171
 2026-05-28,85,0,Decrease reflects case reclassification/removal,85,-557
 2026-05-29,53,0,,,
-2026-05-30,0,0,Decrease reflects case reclassification/removal,-25,0
+2026-05-30,0,0,Decrease reflects case reclassification/removal,-25,-28
+2026-05-31,83,0,Decrease reflects case reclassification/removal,83,-101
+2026-06-01,23,69,,,
