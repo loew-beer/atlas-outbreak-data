@@ -60,7 +60,8 @@
       "first_date": "2026-05-19",
       "travel_linked": 6,
       "travel_linked_of": 11,
-      "travel_linked_don": "WHO DON605"
+      "travel_linked_don": "WHO DON605",
+      "cdc_date": "2026-06-02"
     },
     "trend": "INCREASING",
     "doubling_time_days": null,
