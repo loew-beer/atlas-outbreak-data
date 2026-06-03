@@ -55,9 +55,12 @@
     },
     "cross_border": {
       "countries": 2,
-      "uganda_cases": 11,
+      "uganda_cases": 15,
       "uganda_probable": 1,
-      "first_date": "2026-05-19"
+      "first_date": "2026-05-19",
+      "travel_linked": 6,
+      "travel_linked_of": 11,
+      "travel_linked_don": "WHO DON605"
     },
     "trend": "INCREASING",
     "doubling_time_days": null,
