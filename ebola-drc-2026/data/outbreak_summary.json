@@ -1,9 +1,9 @@
 {
   "metadata": {
     "title": "BDBV Outbreak Summary Data",
-    "last_updated": "2026-06-03T19:00:01Z",
+    "last_updated": "2026-06-03T22:00:01Z",
     "sources": {
-      "epidemiological": "CDC situation summary (06-02), WHO DON605 (05-29), DRC MoH via Al Jazeera (05-30), INSP SitRep via INRB-UMIE (05-27)",
+      "epidemiological": "CDC situation summary (06-02), CDC situation summary (06-02), WHO DON605 (05-29), DRC MoH via Al Jazeera (05-30), INSP SitRep via INRB-UMIE (05-27)",
       "genomic": "Pathoplexus, Virological.org, NCBI GenBank",
       "response": "WHO, MSF, Africa CDC, CDC HAN 00530"
     },
@@ -28,8 +28,8 @@
   },
   "situation": {
     "cases": {
-      "confirmed": 359,
-      "confirmed_drc": 344,
+      "confirmed": 378,
+      "confirmed_drc": 363,
       "confirmed_uganda": 15,
       "probable_uganda": 1,
       "suspected_drc_moh": 1028,
@@ -38,8 +38,8 @@
       "suspected_note": "DRC MoH reports 1,028 suspected (05-30). CDC reports 116 after continued data revision (06-01). The 116 is a cleaned dataset, not the current surveillance burden."
     },
     "deaths": {
-      "confirmed": 61,
-      "confirmed_drc": 60,
+      "confirmed": 63,
+      "confirmed_drc": 62,
       "confirmed_uganda": 1,
       "probable_uganda": 1,
       "suspected_drc_moh": 220,
