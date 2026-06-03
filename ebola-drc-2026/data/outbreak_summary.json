@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "BDBV Outbreak Summary Data",
-    "last_updated": "2026-06-03T03:43:39Z",
+    "last_updated": "2026-06-03T03:46:38Z",
     "sources": {
       "epidemiological": "CDC situation summary (06-02), WHO DON605 (05-29), DRC MoH via Al Jazeera (05-30), INSP SitRep via INRB-UMIE (05-27)",
       "genomic": "Pathoplexus, Virological.org, NCBI GenBank",
