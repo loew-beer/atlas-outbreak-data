@@ -113,6 +113,13 @@
       "date": "2026-06-01",
       "new_confirmed": 23,
       "new_suspected": 69
+    },
+    {
+      "date": "2026-06-03",
+      "new_confirmed": 19,
+      "new_suspected": 0,
+      "source_note": "CDC aggregate (06-01\u219206-03), 2d",
+      "cdc_supplement": true
     }
   ],
   "cumulative_national": [
@@ -268,6 +275,16 @@
       "suspected_deaths": 242,
       "total_cases": 633,
       "total_deaths": 302
+    },
+    {
+      "date": "2026-06-03",
+      "confirmed_cases": 363,
+      "confirmed_deaths": 62,
+      "suspected_cases": null,
+      "suspected_deaths": null,
+      "total_cases": null,
+      "total_deaths": null,
+      "cdc_supplement": true
     }
   ],
   "cases_by_health_zone": [
