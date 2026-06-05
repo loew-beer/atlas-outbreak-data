@@ -38,9 +38,9 @@
       "suspected_note": "INRB-UMIE SitRep MVE-018 (June 2): 206 suspected. Down from peak ~1,077 (May 26) through data harmonization and reclassification. CDC cleaned dataset (June 3): 116 after continued revision."
     },
     "deaths": {
-      "confirmed": 83,
+      "confirmed": 84,
       "confirmed_drc": 82,
-      "confirmed_uganda": 1,
+      "confirmed_uganda": 2,
       "probable_uganda": 1,
       "suspected_drc_moh": 220,
       "suspected_drc_moh_note": "Minimum estimate: DRC MoH reports >220 (at least 220)",
