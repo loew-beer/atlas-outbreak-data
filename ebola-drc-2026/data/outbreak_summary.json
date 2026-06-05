@@ -1,9 +1,9 @@
 {
   "metadata": {
     "title": "BDBV Outbreak Summary Data",
-    "last_updated": "2026-06-05T19:00:01Z",
+    "last_updated": "2026-06-05T22:00:01Z",
     "sources": {
-      "epidemiological": "INSP SitRep via INRB-UMIE (06-02), CDC situation summary (06-04), WHO DON605 (05-29)",
+      "epidemiological": "INSP SitRep via INRB-UMIE (06-02), CDC situation summary (06-05), WHO DON605 (05-29)",
       "genomic": "Pathoplexus, Virological.org, NCBI GenBank",
       "response": "WHO, MSF, Africa CDC, CDC HAN 00530"
     },
@@ -24,13 +24,13 @@
     "pheic_date": "2026-05-17",
     "status": "ACTIVE",
     "who_grade": "GRADE 3",
-    "outbreak_day": 41
+    "outbreak_day": 42
   },
   "situation": {
     "cases": {
-      "confirmed": 397,
-      "confirmed_drc": 381,
-      "confirmed_uganda": 16,
+      "confirmed": 471,
+      "confirmed_drc": 452,
+      "confirmed_uganda": 19,
       "probable_uganda": 1,
       "suspected_drc_moh": 206,
       "suspected_cdc_revised": 116,
@@ -38,8 +38,8 @@
       "suspected_note": "INRB-UMIE SitRep MVE-018 (June 2): 206 suspected. Down from peak ~1,077 (May 26) through data harmonization and reclassification. CDC cleaned dataset (June 3): 116 after continued revision."
     },
     "deaths": {
-      "confirmed": 65,
-      "confirmed_drc": 64,
+      "confirmed": 83,
+      "confirmed_drc": 82,
       "confirmed_uganda": 1,
       "probable_uganda": 1,
       "suspected_drc_moh": 220,
