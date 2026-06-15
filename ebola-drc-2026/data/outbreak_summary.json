@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "BDBV Outbreak Summary Data",
-    "last_updated": "2026-06-15T07:00:01Z",
+    "last_updated": "2026-06-15T10:00:01Z",
     "sources": {
       "epidemiological": "INSP SitRep via INRB-UMIE (06-02), CDC situation summary (06-15), WHO DON605 (05-29)",
       "genomic": "Pathoplexus, Virological.org, NCBI GenBank",
@@ -11,7 +11,7 @@
     "outbreak_id": "DRC-BDBV-2026-001",
     "data_quality": {
       "overall": "MODERATE",
-      "case_confirmation_rate": 0.129,
+      "case_confirmation_rate": 0.852,
       "genomic_coverage": 0.12,
       "reporting_completeness": "PARTIAL",
       "notes": "Low confirmation rate reflects limited BDBV-specific diagnostic capacity. Reporting delays of 3-7 days in conflict-affected health zones."
@@ -49,9 +49,12 @@
       "suspected_note": "DRC MoH reports >220 suspected deaths (05-30) - using 220 as conservative minimum. CDC shows 0 after data revision. WHO DON605 reports 223 suspected deaths (05-27)."
     },
     "cfr": {
-      "confirmed_only": 0.148,
+      "confirmed_only": 0.2276,
       "combined": 0.232,
-      "caveat": "CFR unreliable: right-censoring, low confirmation rate (12.9%), reclassification ongoing"
+      "caveat": "Death proportion: 22.8% (Wilson 95% CI 20.0-25.8%). Right-censored lower bound; outcomes of active cases unknown. Prior value 0.148 was denominator error (used total cases not confirmed-only). Corrected 2026-06-15.",
+      "confirmed_only_wilson_lo": 0.1996,
+      "confirmed_only_wilson_hi": 0.2583,
+      "confirmed_only_scope": "DRC only: 178 confirmed deaths / 782 confirmed cases"
     },
     "cross_border": {
       "countries": 2,
