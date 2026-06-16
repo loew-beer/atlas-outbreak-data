@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "BDBV Outbreak Summary Data",
-    "last_updated": "2026-06-16T10:00:01Z",
+    "last_updated": "2026-06-16T13:00:01Z",
     "sources": {
       "epidemiological": "INSP SitRep via INRB-UMIE (06-02), CDC situation summary (06-15), WHO DON605 (05-29)",
       "genomic": "Pathoplexus, Virological.org, NCBI GenBank",
@@ -305,6 +305,16 @@
     "ipc": {
       "status": "Active in affected health facilities",
       "gaps": "Conflict zones limit access"
+    },
+    "etu": {
+      "bed_occupancy_global_pct": 82.9,
+      "bed_occupancy_ituri_pct": 93.9,
+      "patients_in_isolation": 363,
+      "status": "NEAR_SATURATION",
+      "sitrep_number": 28,
+      "sitrep_date": "2026-06-14",
+      "source": "Africa CDC SitRep #28, 2026-06-14",
+      "note": "Ituri ETU at 93.9% \u2014 approaching saturation. DRC national mean 82.9%. Surge capacity planning needed."
     },
     "coordination": {
       "who": "Grade 3 emergency response",
