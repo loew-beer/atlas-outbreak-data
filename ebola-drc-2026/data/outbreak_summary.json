@@ -1,9 +1,9 @@
 {
   "metadata": {
     "title": "BDBV Outbreak Summary Data",
-    "last_updated": "2026-06-24T09:00:01Z",
+    "last_updated": "2026-06-26T05:00:01Z",
     "sources": {
-      "epidemiological": "INSP SitRep via INRB-UMIE (06-02), CDC situation summary (06-21), WHO DON605 (05-29)",
+      "epidemiological": "INSP SitRep via INRB-UMIE (06-02), CDC situation summary (06-23), WHO DON605 (05-29)",
       "genomic": "Pathoplexus, Virological.org, NCBI GenBank",
       "response": "WHO, MSF, Africa CDC, CDC HAN 00530"
     },
@@ -24,13 +24,14 @@
     "pheic_date": "2026-05-17",
     "status": "ACTIVE",
     "who_grade": "GRADE 3",
-    "outbreak_day": 60
+    "outbreak_day": 62
   },
   "situation": {
     "cases": {
-      "confirmed": 1068,
-      "confirmed_drc": 1048,
+      "confirmed": 1138,
+      "confirmed_drc": 1118,
       "confirmed_uganda": 20,
+      "confirmed_france": 1,
       "probable_uganda": 1,
       "suspected_drc_moh": 206,
       "suspected_cdc_revised": 116,
@@ -38,9 +39,10 @@
       "suspected_note": "INRB-UMIE SitRep MVE-018 (June 2): 206 suspected. Down from peak ~1,077 (May 26) through data harmonization and reclassification. CDC cleaned dataset (June 3): 116 after continued revision."
     },
     "deaths": {
-      "confirmed": 269,
-      "confirmed_drc": 267,
+      "confirmed": 293,
+      "confirmed_drc": 291,
       "confirmed_uganda": 2,
+      "confirmed_france": 0,
       "probable_uganda": 1,
       "suspected_drc_moh": 220,
       "suspected_drc_moh_note": "Minimum estimate: DRC MoH reports >220 (at least 220)",
@@ -57,14 +59,25 @@
       "confirmed_only_scope": "DRC only: 178 confirmed deaths / 782 confirmed cases"
     },
     "cross_border": {
-      "countries": 2,
-      "uganda_cases": 19,
+      "countries": 3,
+      "uganda_cases": 20,
       "uganda_probable": 1,
       "first_date": "2026-05-19",
       "travel_linked": 6,
       "travel_linked_of": 11,
       "travel_linked_don": "WHO DON605",
-      "cdc_date": "2026-06-05"
+      "cdc_date": "2026-06-05",
+      "france": {
+        "cases": 1,
+        "deaths": 0,
+        "confirmed_date": "2026-06-24",
+        "patient": "Healthcare worker returning from DRC humanitarian mission",
+        "viral_load": "very low",
+        "status": "stable, isolated in specialised facility",
+        "contacts": "being identified (21-day monitoring)",
+        "source": "WHO DON606, French Ministry of Health 2026-06-24",
+        "note": "First confirmed Ebola case outside Africa in this outbreak"
+      }
     },
     "trend": "INCREASING",
     "doubling_time_days": null,
@@ -151,6 +164,12 @@
         "date": "2026-05-28",
         "event": "WHO expert consultation: therapeutics/vaccines",
         "type": "response"
+      },
+      {
+        "date": "2026-06-24",
+        "event": "First confirmed case outside Africa: France (HCW returning from DRC)",
+        "type": "cross_border",
+        "source": "WHO DON606, French Ministry of Health"
       }
     ]
   },
@@ -159,8 +178,9 @@
       "provinces": [
         {
           "name": "Ituri",
-          "cases": 650,
-          "deaths": 150,
+          "cases": 997,
+          "deaths": 204,
+          "health_zones_count": 22,
           "health_zones": [
             "Bunia",
             "Rwampara",
@@ -174,8 +194,9 @@
         },
         {
           "name": "Nord-Kivu",
-          "cases": 350,
-          "deaths": 80,
+          "cases": 94,
+          "deaths": 20,
+          "health_zones_count": 11,
           "health_zones": [
             "Butembo",
             "Mabalako",

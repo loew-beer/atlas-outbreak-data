@@ -36,4 +36,3 @@ date,confirmed_cases,suspected_cases,confirmed_deaths,suspected_deaths,total_cas
 2026-06-20,1003,201,254,30,1204,284,[],"[{'field': 'suspected_deaths', 'from': 47, 'to': 30, 'delta': -17, 'type': 'reclassification', 'date': '2026-06-20'}, {'field': 'total_deaths', 'from': 294, 'to': 284, 'delta': -10, 'type': 'reclassification', 'date': '2026-06-20'}]",[]
 2026-06-21,1048,202,267,60,1250,327,[],[],[]
 2026-06-22,1094,131,277,44,1225,321,[],"[{'field': 'suspected_cases', 'from': 202, 'to': 131, 'delta': -71, 'type': 'reclassification', 'date': '2026-06-22'}, {'field': 'suspected_deaths', 'from': 60, 'to': 44, 'delta': -16, 'type': 'reclassification', 'date': '2026-06-22'}, {'field': 'total_cases', 'from': 1250, 'to': 1225, 'delta': -25, 'type': 'reclassification', 'date': '2026-06-22'}, {'field': 'total_deaths', 'from': 327, 'to': 321, 'delta': -6, 'type': 'reclassification', 'date': '2026-06-22'}]",[]
-2026-06-23,1118,138,291,45,1256,336,[],[],[]
