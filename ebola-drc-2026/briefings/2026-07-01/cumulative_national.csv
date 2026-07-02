@@ -1,42 +1,43 @@
-date,confirmed_cases,suspected_cases,confirmed_deaths,suspected_deaths,total_cases,total_deaths,_nd_fields,_adjustments,_flags
-2026-05-14,8,246,4,,254,,['suspected_deaths'],[],[]
-2026-05-17,13,246,4,,259,,['suspected_deaths'],[],[]
-2026-05-18,33,516,4,131,549,135,[],[],[]
-2026-05-19,51,575,4,148,626,152,[],[],[]
-2026-05-20,64,671,6,160,735,166,[],[],[]
-2026-05-21,83,746,9,176,829,185,[],[],[]
-2026-05-22,91,867,10,,958,,['suspected_deaths'],[],[]
-2026-05-23,101,904,10,220,1005,230,[],[],[]
-2026-05-24,105,906,10,223,1011,233,[],[],[]
-2026-05-25,106,998,12,238,1104,250,[],[],[]
-2026-05-26,121,1077,17,246,1198,263,[],[],[]
-2026-05-27,125,906,17,223,1031,240,[],"[{'field': 'suspected_cases', 'from': 1077, 'to': 906, 'delta': -171, 'type': 'reclassification', 'date': '2026-05-27'}, {'field': 'suspected_deaths', 'from': 246, 'to': 223, 'delta': -23, 'type': 'reclassification', 'date': '2026-05-27'}, {'field': 'total_cases', 'from': 1198, 'to': 1031, 'delta': -167, 'type': 'reclassification', 'date': '2026-05-27'}, {'field': 'total_deaths', 'from': 263, 'to': 240, 'delta': -23, 'type': 'reclassification', 'date': '2026-05-27'}]",[]
-2026-05-28,210,349,17,236,559,253,[],"[{'field': 'suspected_cases', 'from': 906, 'to': 349, 'delta': -557, 'type': 'reclassification', 'date': '2026-05-28'}, {'field': 'total_cases', 'from': 1031, 'to': 559, 'delta': -472, 'type': 'reclassification', 'date': '2026-05-28'}]",[]
-2026-05-29,263,349,42,236,612,278,[],[],[]
-2026-05-30,282,321,42,236,603,278,[],"[{'field': 'suspected_cases', 'from': 349, 'to': 321, 'delta': -28, 'type': 'reclassification', 'date': '2026-05-30'}, {'field': 'total_cases', 'from': 612, 'to': 603, 'delta': -9, 'type': 'reclassification', 'date': '2026-05-30'}]",[]
-2026-05-31,321,220,48,,541,,[],"[{'field': 'suspected_cases', 'from': 321, 'to': 220, 'delta': -101, 'type': 'reclassification', 'date': '2026-05-31'}, {'field': 'total_cases', 'from': 603, 'to': 541, 'delta': -62, 'type': 'reclassification', 'date': '2026-05-31'}]",[]
-2026-06-01,344,289,60,242,633,302,[],[],[]
-2026-06-02,363,206,62,,569,,[],"[{'field': 'suspected_cases', 'from': 289, 'to': 206, 'delta': -83, 'type': 'reclassification', 'date': '2026-06-02'}, {'field': 'total_cases', 'from': 633, 'to': 569, 'delta': -64, 'type': 'reclassification', 'date': '2026-06-02'}]",[]
-2026-06-03,381,,64,,,,[],[],[]
-2026-06-04,452,153,82,,605,,[],[],[]
-2026-06-05,488,119,86,,607,,[],"[{'field': 'suspected_cases', 'from': 153, 'to': 119, 'delta': -34, 'type': 'reclassification', 'date': '2026-06-05'}]",[]
-2026-06-06,515,117,91,,632,,[],"[{'field': 'suspected_cases', 'from': 119, 'to': 117, 'delta': -2, 'type': 'reclassification', 'date': '2026-06-06'}]",[]
-2026-06-07,550,94,101,,644,,[],"[{'field': 'suspected_cases', 'from': 117, 'to': 94, 'delta': -23, 'type': 'reclassification', 'date': '2026-06-07'}]",[]
-2026-06-08,598,138,115,,736,,[],[],[]
-2026-06-09,635,119,127,,754,,[],"[{'field': 'suspected_cases', 'from': 138, 'to': 119, 'delta': -19, 'type': 'reclassification', 'date': '2026-06-09'}]",[]
-2026-06-10,676,119,136,,795,,[],[],[]
-2026-06-11,689,168,139,64,857,203,[],[],[]
-2026-06-13,782,136,181,49,918,230,[],"[{'field': 'suspected_cases', 'from': 168, 'to': 136, 'delta': -32, 'type': 'reclassification', 'date': '2026-06-13'}, {'field': 'suspected_deaths', 'from': 64, 'to': 49, 'delta': -15, 'type': 'reclassification', 'date': '2026-06-13'}]",[]
-2026-06-14,808,165,192,54,973,246,[],[],[]
-2026-06-15,837,235,196,,1072,,[],[],[]
-2026-06-16,875,192,202,,1067,,[],"[{'field': 'suspected_cases', 'from': 235, 'to': 192, 'delta': -43, 'type': 'reclassification', 'date': '2026-06-16'}, {'field': 'total_cases', 'from': 1072, 'to': 1067, 'delta': -5, 'type': 'reclassification', 'date': '2026-06-16'}]",[]
-2026-06-17,896,151,232,35,1047,267,[],"[{'field': 'suspected_cases', 'from': 192, 'to': 151, 'delta': -41, 'type': 'reclassification', 'date': '2026-06-17'}, {'field': 'total_cases', 'from': 1067, 'to': 1047, 'delta': -20, 'type': 'reclassification', 'date': '2026-06-17'}]",[]
-2026-06-18,933,238,245,54,1171,299,[],[],[]
-2026-06-19,956,162,247,47,1118,294,[],"[{'field': 'suspected_cases', 'from': 238, 'to': 162, 'delta': -76, 'type': 'reclassification', 'date': '2026-06-19'}, {'field': 'suspected_deaths', 'from': 54, 'to': 47, 'delta': -7, 'type': 'reclassification', 'date': '2026-06-19'}, {'field': 'total_cases', 'from': 1171, 'to': 1118, 'delta': -53, 'type': 'reclassification', 'date': '2026-06-19'}, {'field': 'total_deaths', 'from': 299, 'to': 294, 'delta': -5, 'type': 'reclassification', 'date': '2026-06-19'}]",[]
-2026-06-20,1003,201,254,30,1204,284,[],"[{'field': 'suspected_deaths', 'from': 47, 'to': 30, 'delta': -17, 'type': 'reclassification', 'date': '2026-06-20'}, {'field': 'total_deaths', 'from': 294, 'to': 284, 'delta': -10, 'type': 'reclassification', 'date': '2026-06-20'}]",[]
-2026-06-21,1048,202,267,60,1250,327,[],[],[]
-2026-06-22,1094,131,277,44,1225,321,[],"[{'field': 'suspected_cases', 'from': 202, 'to': 131, 'delta': -71, 'type': 'reclassification', 'date': '2026-06-22'}, {'field': 'suspected_deaths', 'from': 60, 'to': 44, 'delta': -16, 'type': 'reclassification', 'date': '2026-06-22'}, {'field': 'total_cases', 'from': 1250, 'to': 1225, 'delta': -25, 'type': 'reclassification', 'date': '2026-06-22'}, {'field': 'total_deaths', 'from': 327, 'to': 321, 'delta': -6, 'type': 'reclassification', 'date': '2026-06-22'}]",[]
-2026-06-23,1118,138,291,45,1256,336,[],[],[]
-2026-06-24,1155,154,304,40,1309,344,[],"[{'field': 'suspected_deaths', 'from': 45, 'to': 40, 'delta': -5, 'type': 'reclassification', 'date': '2026-06-24'}]",[]
-2026-06-25,1203,265,321,77,1468,398,[],[],[]
-2026-06-27,1274,239,360,70,1513,430,[],"[{'field': 'suspected_cases', 'from': 265, 'to': 239, 'delta': -26, 'type': 'reclassification', 'date': '2026-06-27'}, {'field': 'suspected_deaths', 'from': 77, 'to': 70, 'delta': -7, 'type': 'reclassification', 'date': '2026-06-27'}]",[]
+date,confirmed,source,deaths,suspected,confirmed_cases,confirmed_deaths,suspected_cases,total_cases,suspected_deaths,total_deaths,_nd_fields,_adjustments,_flags,recovered
+2026-05-14,8,INRB-UMIE upstream,4,246,8,4,246,254,,,['suspected_deaths'],[],[],
+2026-05-17,13,INRB-UMIE upstream,4,246,13,4,246,259,,,['suspected_deaths'],[],[],
+2026-05-18,33,INRB-UMIE upstream,4,516,33,4,516,549,,,[],[],[],
+2026-05-19,51,INRB-UMIE upstream,4,575,51,4,575,626,,,[],[],[],
+2026-05-20,64,INRB-UMIE upstream,6,671,64,6,671,735,,,[],[],[],
+2026-05-21,83,INRB-UMIE upstream,9,746,83,9,746,829,,,[],[],[],
+2026-05-22,91,INRB-UMIE upstream,10,867,91,10,867,958,,,['suspected_deaths'],[],[],
+2026-05-23,101,INRB-UMIE upstream,10,904,101,10,904,1005,,,[],[],[],
+2026-05-24,105,INRB-UMIE upstream,10,906,105,10,906,1011,,,[],[],[],
+2026-05-25,106,INRB-UMIE upstream,12,998,106,12,998,1104,,,[],[],[],
+2026-05-26,121,INRB-UMIE upstream,17,1077,121,17,1077,1198,,,[],[],[],
+2026-05-27,125,INRB-UMIE upstream,17,906,125,17,906,1031,,,[],"[{'field': 'suspected_cases', 'from': 1077, 'to': 906, 'delta': -171, 'type': 'reclassification', 'date': '2026-05-27'}, {'field': 'total_cases', 'from': 1198, 'to': 1031, 'delta': -167, 'type': 'reclassification', 'date': '2026-05-27'}]",[],1
+2026-05-28,210,INRB-UMIE upstream,17,349,210,17,349,559,,,[],"[{'field': 'suspected_cases', 'from': 906, 'to': 349, 'delta': -557, 'type': 'reclassification', 'date': '2026-05-28'}, {'field': 'total_cases', 'from': 1031, 'to': 559, 'delta': -472, 'type': 'reclassification', 'date': '2026-05-28'}]",[],1
+2026-05-29,263,INRB-UMIE upstream,42,349,263,42,349,612,,,[],[],[],2
+2026-05-30,282,INRB-UMIE upstream,42,321,282,42,321,603,,,[],"[{'field': 'suspected_cases', 'from': 349, 'to': 321, 'delta': -28, 'type': 'reclassification', 'date': '2026-05-30'}, {'field': 'total_cases', 'from': 612, 'to': 603, 'delta': -9, 'type': 'reclassification', 'date': '2026-05-30'}]",[],2
+2026-05-31,321,INRB-UMIE upstream,48,220,321,48,220,541,,,[],"[{'field': 'suspected_cases', 'from': 321, 'to': 220, 'delta': -101, 'type': 'reclassification', 'date': '2026-05-31'}, {'field': 'total_cases', 'from': 603, 'to': 541, 'delta': -62, 'type': 'reclassification', 'date': '2026-05-31'}]",[],6
+2026-06-01,344,INRB-UMIE upstream,60,289,344,60,289,633,,,[],[],[],6
+2026-06-02,363,INRB-UMIE upstream,62,206,363,62,206,569,,,[],"[{'field': 'suspected_cases', 'from': 289, 'to': 206, 'delta': -83, 'type': 'reclassification', 'date': '2026-06-02'}, {'field': 'total_cases', 'from': 633, 'to': 569, 'delta': -64, 'type': 'reclassification', 'date': '2026-06-02'}]",[],6
+2026-06-03,381,INRB-UMIE upstream,64,,381,64,,381,,,[],"[{'field': 'total_cases', 'from': 569, 'to': 381, 'delta': -188, 'type': 'reclassification', 'date': '2026-06-03'}]",[],7
+2026-06-04,452,INRB-UMIE upstream,82,153,452,82,153,605,,,[],[],[],8
+2026-06-05,488,INRB-UMIE upstream,86,119,488,86,119,607,,,[],"[{'field': 'suspected_cases', 'from': 153, 'to': 119, 'delta': -34, 'type': 'reclassification', 'date': '2026-06-05'}]",[],9
+2026-06-06,515,INRB-UMIE upstream,91,117,515,91,117,632,,,[],"[{'field': 'suspected_cases', 'from': 119, 'to': 117, 'delta': -2, 'type': 'reclassification', 'date': '2026-06-06'}]",[],12
+2026-06-07,550,INRB-UMIE upstream,101,94,550,101,94,644,,,[],"[{'field': 'suspected_cases', 'from': 117, 'to': 94, 'delta': -23, 'type': 'reclassification', 'date': '2026-06-07'}]",[],19
+2026-06-08,598,INRB-UMIE upstream,115,138,598,115,138,736,,,[],[],[],22
+2026-06-09,635,INRB-UMIE upstream,127,119,635,127,119,754,,,[],"[{'field': 'suspected_cases', 'from': 138, 'to': 119, 'delta': -19, 'type': 'reclassification', 'date': '2026-06-09'}]",[],30
+2026-06-10,676,INRB-UMIE upstream,136,119,676,136,119,795,,,[],[],[],32
+2026-06-11,689,INRB-UMIE upstream,139,168,689,139,168,857,,,[],[],[],32
+2026-06-13,782,INRB-UMIE upstream,181,136,782,181,136,918,,,[],"[{'field': 'suspected_cases', 'from': 168, 'to': 136, 'delta': -32, 'type': 'reclassification', 'date': '2026-06-13'}]",[],40
+2026-06-14,808,INRB-UMIE upstream,192,165,808,192,165,973,,,[],[],[],48
+2026-06-15,837,INRB-UMIE upstream,196,235,837,196,235,1072,,,[],[],[],49
+2026-06-16,875,INRB-UMIE upstream,202,192,875,202,192,1067,,,[],"[{'field': 'suspected_cases', 'from': 235, 'to': 192, 'delta': -43, 'type': 'reclassification', 'date': '2026-06-16'}, {'field': 'total_cases', 'from': 1072, 'to': 1067, 'delta': -5, 'type': 'reclassification', 'date': '2026-06-16'}]",[],67
+2026-06-17,896,INRB-UMIE upstream,232,151,896,232,151,1047,,,[],"[{'field': 'suspected_cases', 'from': 192, 'to': 151, 'delta': -41, 'type': 'reclassification', 'date': '2026-06-17'}, {'field': 'total_cases', 'from': 1067, 'to': 1047, 'delta': -20, 'type': 'reclassification', 'date': '2026-06-17'}]",[],78
+2026-06-18,933,INRB-UMIE upstream,245,238,933,245,238,1171,,,[],[],[],80
+2026-06-19,956,INRB-UMIE upstream,247,162,956,247,162,1118,,,[],"[{'field': 'suspected_cases', 'from': 238, 'to': 162, 'delta': -76, 'type': 'reclassification', 'date': '2026-06-19'}, {'field': 'total_cases', 'from': 1171, 'to': 1118, 'delta': -53, 'type': 'reclassification', 'date': '2026-06-19'}]",[],92
+2026-06-20,1003,INRB-UMIE upstream,254,201,1003,254,201,1204,,,[],[],[],100
+2026-06-21,1048,INRB-UMIE upstream,267,202,1048,267,202,1250,,,[],[],[],112
+2026-06-22,1094,INRB-UMIE upstream,277,131,1094,277,131,1225,,,[],"[{'field': 'suspected_cases', 'from': 202, 'to': 131, 'delta': -71, 'type': 'reclassification', 'date': '2026-06-22'}, {'field': 'total_cases', 'from': 1250, 'to': 1225, 'delta': -25, 'type': 'reclassification', 'date': '2026-06-22'}]",[],115
+2026-06-23,1118,INRB-UMIE upstream,291,138,1118,291,138,1256,,,[],[],[],122
+2026-06-24,1155,INRB-UMIE upstream,304,154,1155,304,154,1309,,,[],[],[],138
+2026-06-25,1203,INRB-UMIE upstream,321,265,1203,321,265,1468,,,[],[],[],148
+2026-06-27,1274,INRB-UMIE upstream,360,239,1274,360,239,1513,,,[],"[{'field': 'suspected_cases', 'from': 265, 'to': 239, 'delta': -26, 'type': 'reclassification', 'date': '2026-06-27'}]",[],178
+2026-06-29,1333,INRB-UMIE upstream,399,309,1333,399,309,1642,,,[],[],[],189
