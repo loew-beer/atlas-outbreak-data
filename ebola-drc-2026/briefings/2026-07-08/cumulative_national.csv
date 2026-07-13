@@ -46,8 +46,3 @@ date,confirmed_cases,suspected_cases,confirmed_deaths,suspected_deaths,total_cas
 2026-07-02,1502,213,473,63,1715,536,[],[],[]
 2026-07-03,1528,185,492,67,1713,559,[],"[{'field': 'suspected_cases', 'from': 213, 'to': 185, 'delta': -28, 'type': 'reclassification', 'date': '2026-07-03'}, {'field': 'total_cases', 'from': 1715, 'to': 1713, 'delta': -2, 'type': 'reclassification', 'date': '2026-07-03'}]",[]
 2026-07-04,1561,354,506,110,1915,616,[],[],[]
-2026-07-05,1624,135,521,23,1759,544,[],"[{'field': 'suspected_cases', 'from': 354, 'to': 135, 'delta': -219, 'type': 'reclassification', 'date': '2026-07-05'}, {'field': 'suspected_deaths', 'from': 110, 'to': 23, 'delta': -87, 'type': 'reclassification', 'date': '2026-07-05'}, {'field': 'total_cases', 'from': 1915, 'to': 1759, 'delta': -156, 'type': 'reclassification', 'date': '2026-07-05'}, {'field': 'total_deaths', 'from': 616, 'to': 544, 'delta': -72, 'type': 'reclassification', 'date': '2026-07-05'}]",[]
-2026-07-06,1708,237,580,70,1945,650,[],[],[]
-2026-07-07,1759,304,600,92,2063,692,[],[],[]
-2026-07-08,1792,227,625,60,2019,685,[],"[{'field': 'suspected_cases', 'from': 304, 'to': 227, 'delta': -77, 'type': 'reclassification', 'date': '2026-07-08'}, {'field': 'suspected_deaths', 'from': 92, 'to': 60, 'delta': -32, 'type': 'reclassification', 'date': '2026-07-08'}, {'field': 'total_cases', 'from': 2063, 'to': 2019, 'delta': -44, 'type': 'reclassification', 'date': '2026-07-08'}, {'field': 'total_deaths', 'from': 692, 'to': 685, 'delta': -7, 'type': 'reclassification', 'date': '2026-07-08'}]",[]
-2026-07-09,1830,284,648,81,2114,729,[],[],[]
