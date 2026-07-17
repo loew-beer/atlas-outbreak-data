@@ -13,15 +13,16 @@
     "2026-05-26",
     "2026-05-27",
     "2026-05-29",
-    "2026-06-01"
+    "2026-06-01",
+    "2026-07-13"
   ],
   "top_zones": [
     "Bunia",
     "Rwampara",
     "Mongbwalu",
-    "Nyankunde",
     "Katwa",
-    "Butembo"
+    "Nyankunde",
+    "Nizi"
   ],
   "data": [
     {
@@ -29,9 +30,9 @@
       "Mongbwalu": 0,
       "Bunia": 0,
       "Rwampara": 0,
-      "Nyankunde": 0,
       "Katwa": 0,
-      "Butembo": 0,
+      "Nyankunde": 0,
+      "Nizi": 0,
       "Other": 0
     },
     {
@@ -39,9 +40,9 @@
       "Mongbwalu": 0,
       "Rwampara": 13,
       "Bunia": 0,
-      "Nyankunde": 0,
       "Katwa": 0,
-      "Butembo": 0,
+      "Nyankunde": 0,
+      "Nizi": 0,
       "Other": 0
     },
     {
@@ -51,8 +52,8 @@
       "Bunia": 6,
       "Nyankunde": 4,
       "Katwa": 1,
-      "Butembo": 1,
-      "Other": 1
+      "Nizi": 0,
+      "Other": 2
     },
     {
       "date": "2026-05-19",
@@ -61,7 +62,7 @@
       "Bunia": 0,
       "Nyankunde": 0,
       "Katwa": 0,
-      "Butembo": 0,
+      "Nizi": 0,
       "Other": 0
     },
     {
@@ -71,7 +72,7 @@
       "Bunia": 5,
       "Nyankunde": 1,
       "Katwa": 1,
-      "Butembo": 0,
+      "Nizi": 0,
       "Other": 1
     },
     {
@@ -81,7 +82,7 @@
       "Bunia": 6,
       "Nyankunde": 2,
       "Katwa": 1,
-      "Butembo": 1,
+      "Nizi": 1,
       "Other": 3
     },
     {
@@ -91,8 +92,8 @@
       "Bunia": 8,
       "Nyankunde": 0,
       "Katwa": 2,
-      "Butembo": 0,
-      "Other": 2
+      "Nizi": 1,
+      "Other": 1
     },
     {
       "date": "2026-05-23",
@@ -101,7 +102,7 @@
       "Bunia": 1,
       "Nyankunde": 0,
       "Katwa": 1,
-      "Butembo": 0,
+      "Nizi": 0,
       "Other": 0
     },
     {
@@ -111,8 +112,8 @@
       "Bunia": 0,
       "Nyankunde": 0,
       "Katwa": 0,
-      "Butembo": 2,
-      "Other": 2
+      "Nizi": 0,
+      "Other": 4
     },
     {
       "date": "2026-05-25",
@@ -121,7 +122,7 @@
       "Bunia": 0,
       "Nyankunde": 0,
       "Katwa": 0,
-      "Butembo": 0,
+      "Nizi": 0,
       "Other": 1
     },
     {
@@ -131,7 +132,7 @@
       "Bunia": 12,
       "Nyankunde": 1,
       "Katwa": 0,
-      "Butembo": 0,
+      "Nizi": 0,
       "Other": 1
     },
     {
@@ -141,28 +142,38 @@
       "Bunia": 1,
       "Nyankunde": 0,
       "Katwa": 0,
-      "Butembo": 2,
-      "Other": 2
+      "Nizi": 0,
+      "Other": 4
     },
     {
       "date": "2026-05-29",
       "Bunia": 21,
       "Mongbwalu": 8,
+      "Nizi": 0,
       "Nyankunde": 2,
       "Rwampara": 12,
       "Katwa": 0,
-      "Butembo": 0,
       "Other": 3
     },
     {
       "date": "2026-06-01",
       "Bunia": 6,
       "Mongbwalu": 11,
+      "Nizi": 0,
       "Nyankunde": 0,
       "Rwampara": 3,
-      "Butembo": 0,
       "Katwa": 3,
       "Other": 82
+    },
+    {
+      "date": "2026-07-13",
+      "Bunia": 16,
+      "Rwampara": 9,
+      "Nizi": 5,
+      "Katwa": 3,
+      "Mongbwalu": 0,
+      "Nyankunde": 0,
+      "Other": 21
     }
   ]
 }
