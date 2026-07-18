@@ -14,15 +14,16 @@
     "2026-05-27",
     "2026-05-29",
     "2026-06-01",
-    "2026-07-13"
+    "2026-07-13",
+    "2026-07-15"
   ],
   "top_zones": [
     "Bunia",
     "Rwampara",
     "Mongbwalu",
     "Katwa",
-    "Nyankunde",
-    "Nizi"
+    "Nizi",
+    "Nyankunde"
   ],
   "data": [
     {
@@ -31,8 +32,8 @@
       "Bunia": 0,
       "Rwampara": 0,
       "Katwa": 0,
-      "Nyankunde": 0,
       "Nizi": 0,
+      "Nyankunde": 0,
       "Other": 0
     },
     {
@@ -41,8 +42,8 @@
       "Rwampara": 13,
       "Bunia": 0,
       "Katwa": 0,
-      "Nyankunde": 0,
       "Nizi": 0,
+      "Nyankunde": 0,
       "Other": 0
     },
     {
@@ -174,6 +175,16 @@
       "Mongbwalu": 0,
       "Nyankunde": 0,
       "Other": 21
+    },
+    {
+      "date": "2026-07-15",
+      "Bunia": 14,
+      "Nizi": 9,
+      "Rwampara": 6,
+      "Mongbwalu": 5,
+      "Katwa": 4,
+      "Nyankunde": 0,
+      "Other": 27
     }
   ]
 }
