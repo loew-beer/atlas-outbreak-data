@@ -1,9 +1,9 @@
 {
   "metadata": {
     "title": "BDBV Outbreak Summary Data",
-    "last_updated": "2026-08-10T08:00:01Z",
+    "last_updated": "2026-08-10T09:00:01Z",
     "sources": {
-      "epidemiological": "INSP SitRep via INRB-UMIE (07-04), CDC situation summary (07-08 DRC / 07-09 Uganda), WHO DON612 (06-24)",
+      "epidemiological": "CDC Situation Summary (2026-08-05 DRC+Uganda+France); INRB-UMIE upstream pipeline; WHO DON614 (2026-07-30)",
       "genomic": "Pathoplexus, Virological.org, NCBI GenBank",
       "response": "WHO, MSF, Africa CDC, CDC HAN 00530"
     },
@@ -24,23 +24,23 @@
     "pheic_date": "2026-05-17",
     "status": "ACTIVE",
     "who_grade": "GRADE 3",
-    "outbreak_day": 73
+    "outbreak_day": 88
   },
   "situation": {
     "cases": {
-      "confirmed": 3605,
-      "confirmed_drc": 3584,
+      "confirmed": 4074,
+      "confirmed_drc": 4053,
       "confirmed_uganda": 20,
       "confirmed_france": 1,
       "probable_uganda": 1,
       "suspected_drc_moh": 206,
       "suspected_cdc_revised": 116,
-      "total": 1360,
+      "total": 4075,
       "suspected_note": "INRB-UMIE SitRep MVE-018 (June 2): 206 suspected. Down from peak ~1,077 (May 26) through data harmonization and reclassification. CDC cleaned dataset (June 3): 116 after continued revision."
     },
     "deaths": {
-      "confirmed": 1589,
-      "confirmed_drc": 1587,
+      "confirmed": 1852,
+      "confirmed_drc": 1850,
       "confirmed_uganda": 2,
       "confirmed_france": 0,
       "probable_uganda": 1,
@@ -51,12 +51,12 @@
       "suspected_note": "DRC MoH reports >220 suspected deaths (05-30) - using 220 as conservative minimum. CDC shows 0 after data revision. WHO DON605 reports 223 suspected deaths (05-27)."
     },
     "cfr": {
-      "confirmed_only": 0.2276,
+      "confirmed_only": 0.4546,
       "combined": 0.232,
-      "caveat": "Death proportion: 22.8% (Wilson 95% CI 20.0-25.8%). Right-censored lower bound; outcomes of active cases unknown. Prior value 0.148 was denominator error (used total cases not confirmed-only). Corrected 2026-06-15.",
-      "confirmed_only_wilson_lo": 0.1996,
-      "confirmed_only_wilson_hi": 0.2583,
-      "confirmed_only_scope": "DRC only: 178 confirmed deaths / 782 confirmed cases"
+      "caveat": "Death proportion: 45.5% (Wilson 95% CI 43.9-47.0%). Right-censored lower bound; outcomes of active cases unknown. Updated from CDC figures (2026-08-05): 1,852 deaths / 4,074 confirmed cases.",
+      "confirmed_only_wilson_lo": 0.4393,
+      "confirmed_only_wilson_hi": 0.4699,
+      "confirmed_only_scope": "All confirmed cases (DRC+Uganda+France)"
     },
     "cross_border": {
       "countries": 3,
@@ -88,8 +88,8 @@
     "doubling_time_days": null,
     "doubling_time_note": "Insufficient data for reliable estimate; active conflict zones distort reporting",
     "recovered": {
-      "confirmed": 669,
-      "confirmed_drc": 651,
+      "confirmed": 828,
+      "confirmed_drc": 810,
       "confirmed_uganda": 18
     }
   },
@@ -338,14 +338,14 @@
       "gaps": "Conflict zones limit access"
     },
     "etu": {
-      "bed_occupancy_global_pct": 82.9,
-      "bed_occupancy_ituri_pct": 93.9,
-      "patients_in_isolation": 363,
-      "status": "NEAR_SATURATION",
-      "sitrep_number": 28,
-      "sitrep_date": "2026-06-14",
-      "source": "Africa CDC SitRep #28, 2026-06-14",
-      "note": "Ituri ETU at 93.9% \u2014 approaching saturation. DRC national mean 82.9%. Surge capacity planning needed."
+      "bed_occupancy_global_pct": null,
+      "bed_occupancy_ituri_pct": 58.6,
+      "patients_in_isolation": 721,
+      "status": "ELEVATED",
+      "sitrep_number": 81,
+      "sitrep_date": "2026-08-06",
+      "source": "Africa CDC Sitrep #81, August 6 2026",
+      "note": "Ituri ETU at 58.6% (488 of 833 beds). North Kivu: 155% capacity."
     },
     "coordination": {
       "who": "Grade 3 emergency response",
@@ -391,6 +391,6 @@
       "description": "WorldPop estimates used; no census-level data for attack rates"
     }
   ],
-  "last_updated": "2026-07-30T00:00:00Z",
-  "primary_source": "WHO DON614 (2026-07-30)"
+  "last_updated": "2026-08-10T08:32:30Z",
+  "primary_source": "CDC Situation Summary (2026-08-05)"
 }
