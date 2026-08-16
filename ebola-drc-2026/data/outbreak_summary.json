@@ -1,9 +1,9 @@
 {
   "metadata": {
     "title": "BDBV Outbreak Summary Data",
-    "last_updated": "2026-08-16T12:00:01Z",
+    "last_updated": "2026-08-16T13:00:01Z",
     "sources": {
-      "epidemiological": "CDC Situation Summary (2026-08-05 DRC+Uganda+France); INRB-UMIE upstream pipeline; WHO DON614 (2026-07-30)",
+      "epidemiological": "WHO DON615 (2026-08-12); CDC Situation Summary (2026-08-05 DRC+Uganda+France); INRB-UMIE upstream pipeline",
       "genomic": "Pathoplexus, Virological.org, NCBI GenBank",
       "response": "WHO, MSF, Africa CDC, CDC HAN 00530"
     },
@@ -24,23 +24,23 @@
     "pheic_date": "2026-05-17",
     "status": "ACTIVE",
     "who_grade": "GRADE 3",
-    "outbreak_day": 88
+    "outbreak_day": 90
   },
   "situation": {
     "cases": {
-      "confirmed": 4074,
-      "confirmed_drc": 4053,
+      "confirmed": 4686,
+      "confirmed_drc": 4665,
       "confirmed_uganda": 20,
       "confirmed_france": 1,
       "probable_uganda": 1,
       "suspected_drc_moh": 206,
       "suspected_cdc_revised": 116,
-      "total": 4075,
+      "total": 4686,
       "suspected_note": "INRB-UMIE SitRep MVE-018 (June 2): 206 suspected. Down from peak ~1,077 (May 26) through data harmonization and reclassification. CDC cleaned dataset (June 3): 116 after continued revision."
     },
     "deaths": {
-      "confirmed": 1852,
-      "confirmed_drc": 1850,
+      "confirmed": 2186,
+      "confirmed_drc": 2184,
       "confirmed_uganda": 2,
       "confirmed_france": 0,
       "probable_uganda": 1,
@@ -51,11 +51,11 @@
       "suspected_note": "DRC MoH reports >220 suspected deaths (05-30) - using 220 as conservative minimum. CDC shows 0 after data revision. WHO DON605 reports 223 suspected deaths (05-27)."
     },
     "cfr": {
-      "confirmed_only": 0.4546,
+      "confirmed_only": 0.4665,
       "combined": 0.232,
-      "caveat": "Death proportion: 45.5% (Wilson 95% CI 43.9-47.0%). Right-censored lower bound; outcomes of active cases unknown. Updated from CDC figures (2026-08-05): 1,852 deaths / 4,074 confirmed cases.",
-      "confirmed_only_wilson_lo": 0.4393,
-      "confirmed_only_wilson_hi": 0.4699,
+      "caveat": "Death proportion: 46.6% (Wilson 95% CI 45.2-48.1%). Right-censored lower bound; outcomes of active cases unknown. Updated from WHO DON615 (2026-08-12): 2,186 deaths / 4,686 confirmed cases.",
+      "confirmed_only_wilson_lo": 0.4522,
+      "confirmed_only_wilson_hi": 0.4808,
       "confirmed_only_scope": "All confirmed cases (DRC+Uganda+France)"
     },
     "cross_border": {
@@ -80,16 +80,18 @@
       },
       "uganda_deaths": 2,
       "confirmed_france": 1,
-      "don_number": 614,
-      "don_date": "2026-07-30",
-      "uganda_outbreak_end": "2026-07-28"
+      "don_number": 615,
+      "don_date": "2026-08-14",
+      "uganda_outbreak_end": "2026-07-28",
+      "germany_medevac": 2,
+      "germany_note": "2 DRC-confirmed cases medically evacuated to Germany; counted under DRC total (no local Germany transmission)"
     },
     "trend": "INCREASING",
     "doubling_time_days": null,
     "doubling_time_note": "Insufficient data for reliable estimate; active conflict zones distort reporting",
     "recovered": {
-      "confirmed": 828,
-      "confirmed_drc": 810,
+      "confirmed": 986,
+      "confirmed_drc": 965,
       "confirmed_uganda": 18
     }
   },
@@ -180,6 +182,12 @@
         "event": "First confirmed case outside Africa: France (HCW returning from DRC)",
         "type": "cross_border",
         "source": "WHO DON606, French Ministry of Health"
+      },
+      {
+        "date": "2026-08-14",
+        "event": "WHO DON615: 4,686 confirmed, 2,184 DRC deaths, 6 provinces, 54 zones; peak week 32 (579 cases, 304 deaths)",
+        "type": "milestone",
+        "source": "WHO DON615"
       }
     ]
   },
@@ -228,6 +236,24 @@
           ],
           "status": "limited",
           "population_estimate": 6500000
+        },
+        {
+          "name": "Haut-U\u00e9l\u00e9",
+          "status": "expanding",
+          "health_zones_count": 6,
+          "population_estimate": 1700000
+        },
+        {
+          "name": "Tshopo",
+          "status": "expanding",
+          "health_zones_count": 6,
+          "population_estimate": 2600000
+        },
+        {
+          "name": "Bas-U\u00e9l\u00e9",
+          "status": "new",
+          "health_zones_count": 1,
+          "population_estimate": 1100000
         }
       ]
     },
@@ -251,7 +277,7 @@
     "note": "Individual-level demographic data not available from aggregate WHO reports. Age/sex breakdown requires linelist access from DRC MoH.",
     "known": {
       "index_case": "Healthcare worker, Bunia",
-      "hcw_cases": "Multiple reported (exact count unavailable)",
+      "hcw_cases": "155 confirmed (DON615 2026-08-12); 45 deaths (CFR 29%)",
       "children_under_5": "Reported but unquantified"
     }
   },
@@ -391,6 +417,6 @@
       "description": "WorldPop estimates used; no census-level data for attack rates"
     }
   ],
-  "last_updated": "2026-08-10T08:32:30Z",
-  "primary_source": "CDC Situation Summary (2026-08-05)"
+  "last_updated": "2026-08-16T12:00:01Z",
+  "primary_source": "WHO DON615 (2026-08-12)"
 }
