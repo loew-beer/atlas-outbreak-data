@@ -1,9 +1,9 @@
 {
   "metadata": {
     "title": "BDBV Outbreak Summary Data",
-    "last_updated": "2026-08-30T14:00:02Z",
+    "last_updated": "2026-08-30T15:00:01Z",
     "sources": {
-      "epidemiological": "WHO DON615 (2026-08-12); CDC Situation Summary (2026-08-05 DRC+Uganda+France); INRB-UMIE upstream pipeline",
+      "epidemiological": "WHO DON616 (2026-08-26); CDC Situation Summary (2026-08-05 DRC+Uganda+France); INRB-UMIE upstream pipeline",
       "genomic": "Pathoplexus, Virological.org, NCBI GenBank",
       "response": "WHO, MSF, Africa CDC, CDC HAN 00530"
     },
@@ -24,23 +24,23 @@
     "pheic_date": "2026-05-17",
     "status": "ACTIVE",
     "who_grade": "GRADE 3",
-    "outbreak_day": 90
+    "outbreak_day": 104
   },
   "situation": {
     "cases": {
-      "confirmed": 4686,
-      "confirmed_drc": 4665,
+      "confirmed": 5815,
+      "confirmed_drc": 5794,
       "confirmed_uganda": 20,
       "confirmed_france": 1,
       "probable_uganda": 1,
       "suspected_drc_moh": 206,
       "suspected_cdc_revised": 116,
-      "total": 4686,
+      "total": 5815,
       "suspected_note": "INRB-UMIE SitRep MVE-018 (June 2): 206 suspected. Down from peak ~1,077 (May 26) through data harmonization and reclassification. CDC cleaned dataset (June 3): 116 after continued revision."
     },
     "deaths": {
-      "confirmed": 2186,
-      "confirmed_drc": 2184,
+      "confirmed": 2788,
+      "confirmed_drc": 2786,
       "confirmed_uganda": 2,
       "confirmed_france": 0,
       "probable_uganda": 1,
@@ -51,11 +51,11 @@
       "suspected_note": "DRC MoH reports >220 suspected deaths (05-30) - using 220 as conservative minimum. CDC shows 0 after data revision. WHO DON605 reports 223 suspected deaths (05-27)."
     },
     "cfr": {
-      "confirmed_only": 0.4665,
+      "confirmed_only": 0.4795,
       "combined": 0.232,
-      "caveat": "Death proportion: 46.6% (Wilson 95% CI 45.2-48.1%). Right-censored lower bound; outcomes of active cases unknown. Updated from WHO DON615 (2026-08-12): 2,186 deaths / 4,686 confirmed cases.",
-      "confirmed_only_wilson_lo": 0.4522,
-      "confirmed_only_wilson_hi": 0.4808,
+      "caveat": "Death proportion: 47.9% (Wilson 95% CI 46.7-49.2%). Right-censored lower bound; outcomes of active cases unknown. Updated from WHO DON616 (2026-08-26): 2,788 deaths / 5,815 confirmed cases.",
+      "confirmed_only_wilson_lo": 0.4666,
+      "confirmed_only_wilson_hi": 0.4923,
       "confirmed_only_scope": "All confirmed cases (DRC+Uganda+France)"
     },
     "cross_border": {
@@ -80,8 +80,10 @@
       },
       "uganda_deaths": 2,
       "confirmed_france": 1,
-      "don_number": 615,
-      "don_date": "2026-08-14",
+      "don_number": 616,
+      "don_date": "2026-08-28",
+      "france_monitoring_complete": "2026-08-27",
+      "uganda_monitoring_complete": "2026-08-27",
       "uganda_outbreak_end": "2026-07-28",
       "germany_medevac": 2,
       "germany_note": "2 DRC-confirmed cases medically evacuated to Germany; counted under DRC total (no local Germany transmission)"
@@ -90,9 +92,11 @@
     "doubling_time_days": null,
     "doubling_time_note": "Insufficient data for reliable estimate; active conflict zones distort reporting",
     "recovered": {
-      "confirmed": 986,
-      "confirmed_drc": 965,
-      "confirmed_uganda": 18
+      "confirmed": 1314,
+      "confirmed_drc": 1293,
+      "confirmed_uganda": 18,
+      "confirmed_germany": 2,
+      "confirmed_france": 1
     }
   },
   "temporal": {
@@ -188,6 +192,18 @@
         "event": "WHO DON615: 4,686 confirmed, 2,184 DRC deaths, 6 provinces, 54 zones; peak week 32 (579 cases, 304 deaths)",
         "type": "milestone",
         "source": "WHO DON615"
+      },
+      {
+        "date": "2026-08-27",
+        "event": "Ervebo vaccine rollout initiated in DRC; Uganda and France completed 42-day enhanced monitoring period",
+        "type": "milestone",
+        "source": "WHO DON616"
+      },
+      {
+        "date": "2026-08-28",
+        "event": "WHO DON616: 5,815 confirmed, 2,786 DRC deaths, 60 zones, CFR 48.1%; 68% CFR in North Kivu",
+        "type": "milestone",
+        "source": "WHO DON616"
       }
     ]
   },
@@ -198,7 +214,7 @@
           "name": "Ituri",
           "cases": 997,
           "deaths": 204,
-          "health_zones_count": 22,
+          "health_zones_count": 28,
           "health_zones": [
             "Bunia",
             "Rwampara",
@@ -214,7 +230,7 @@
           "name": "Nord-Kivu",
           "cases": 94,
           "deaths": 20,
-          "health_zones_count": 11,
+          "health_zones_count": 15,
           "health_zones": [
             "Butembo",
             "Mabalako",
@@ -231,6 +247,7 @@
           "name": "Sud-Kivu",
           "cases": 40,
           "deaths": 11,
+          "health_zones_count": 1,
           "health_zones": [
             "Bukavu"
           ],
@@ -246,13 +263,13 @@
         {
           "name": "Tshopo",
           "status": "expanding",
-          "health_zones_count": 6,
+          "health_zones_count": 7,
           "population_estimate": 2600000
         },
         {
           "name": "Bas-U\u00e9l\u00e9",
           "status": "new",
-          "health_zones_count": 1,
+          "health_zones_count": 3,
           "population_estimate": 1100000
         }
       ]
@@ -346,7 +363,7 @@
   "response": {
     "vaccination": {
       "bdbv_vaccine_available": false,
-      "candidate_status": "WHO expert consultation 2026-05-28; candidates under evaluation",
+      "candidate_status": "Ervebo vaccine rollout initiated in DRC on 2026-08-27; efficacy against BDBV in humans unknown. Phase 1 safety trials underway. WHO-sponsored PARTNERS trial reached 100 patients milestone.",
       "cross_protection_rvsv_zebov": "Not clinically established for BDBV",
       "timeline": "Africa CDC estimates BDBV-specific vaccine by end of 2026"
     },
@@ -417,6 +434,6 @@
       "description": "WorldPop estimates used; no census-level data for attack rates"
     }
   ],
-  "last_updated": "2026-08-16T12:00:01Z",
-  "primary_source": "WHO DON615 (2026-08-12)"
+  "last_updated": "2026-08-30T06:00:00Z",
+  "primary_source": "WHO DON616 (2026-08-26)"
 }
