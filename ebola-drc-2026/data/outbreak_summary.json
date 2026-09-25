@@ -1,9 +1,9 @@
 {
   "metadata": {
     "title": "BDBV Outbreak Summary Data",
-    "last_updated": "2026-09-25T18:00:01Z",
+    "last_updated": "2026-09-25T19:00:01Z",
     "sources": {
-      "epidemiological": "WHO DON617 (2026-09-07); INRB-UMIE upstream pipeline",
+      "epidemiological": "WHO DON618 (2026-09-23); INRB-UMIE upstream pipeline",
       "genomic": "Pathoplexus, Virological.org, NCBI GenBank",
       "response": "WHO, MSF, Africa CDC, CDC HAN 00530"
     },
@@ -24,23 +24,23 @@
     "pheic_date": "2026-05-17",
     "status": "ACTIVE",
     "who_grade": "GRADE 3",
-    "outbreak_day": 115
+    "outbreak_day": 131
   },
   "situation": {
     "cases": {
-      "confirmed": 6778,
-      "confirmed_drc": 6757,
+      "confirmed": 7911,
+      "confirmed_drc": 7890,
       "confirmed_uganda": 20,
       "confirmed_france": 1,
       "probable_uganda": 1,
       "suspected_drc_moh": 206,
       "suspected_cdc_revised": 116,
-      "total": 6778,
+      "total": 7911,
       "suspected_note": "INRB-UMIE SitRep MVE-018 (June 2): 206 suspected. Down from peak ~1,077 (May 26) through data harmonization and reclassification. CDC cleaned dataset (June 3): 116 after continued revision."
     },
     "deaths": {
-      "confirmed": 3269,
-      "confirmed_drc": 3267,
+      "confirmed": 3801,
+      "confirmed_drc": 3799,
       "confirmed_uganda": 2,
       "confirmed_france": 0,
       "probable_uganda": 1,
@@ -51,11 +51,11 @@
       "suspected_note": "DRC MoH reports >220 suspected deaths (05-30) - using 220 as conservative minimum. CDC shows 0 after data revision. WHO DON605 reports 223 suspected deaths (05-27)."
     },
     "cfr": {
-      "confirmed_only": 0.4835,
+      "confirmed_only": 0.4815,
       "combined": 0.232,
-      "caveat": "Death proportion: 48.4% (Wilson 95% CI 47.2\u201349.5%). Right-censored lower bound; outcomes of active cases unknown. Updated from WHO DON617 (2026-09-07): 3,269 deaths / 6,778 confirmed cases.",
-      "confirmed_only_wilson_lo": 0.4716,
-      "confirmed_only_wilson_hi": 0.4954,
+      "caveat": "Death proportion: 48.1% (Wilson 95% CI 47.0\u201349.2%). Right-censored lower bound; outcomes of active cases unknown. Updated from WHO DON618 (2026-09-23): 3,801 deaths / 7,911 confirmed cases.",
+      "confirmed_only_wilson_lo": 0.4705,
+      "confirmed_only_wilson_hi": 0.4925,
       "confirmed_only_scope": "All confirmed cases (DRC+Uganda+France)"
     },
     "cross_border": {
@@ -80,8 +80,8 @@
       },
       "uganda_deaths": 2,
       "confirmed_france": 1,
-      "don_number": 617,
-      "don_date": "2026-09-10",
+      "don_number": 618,
+      "don_date": "2026-09-25",
       "france_monitoring_complete": "2026-08-27",
       "uganda_monitoring_complete": "2026-08-27",
       "uganda_outbreak_end": "2026-07-28",
@@ -92,11 +92,18 @@
     "doubling_time_days": null,
     "doubling_time_note": "Insufficient data for reliable estimate; active conflict zones distort reporting",
     "recovered": {
-      "confirmed": 1611,
-      "confirmed_drc": 1590,
+      "confirmed": 1987,
+      "confirmed_drc": 1966,
       "confirmed_uganda": 18,
       "confirmed_germany": 2,
       "confirmed_france": 1
+    },
+    "contacts_24h": {
+      "monitored": 26980,
+      "requiring_followup": 32342,
+      "coverage_pct": 83.4,
+      "as_of": "2026-09-23",
+      "source": "WHO DON618"
     }
   },
   "temporal": {
@@ -210,6 +217,12 @@
         "event": "WHO DON617: 6,778 confirmed (6,757 DRC), 3,269 deaths, CFR 48.4%, 61 zones across 6 provinces; +963 cases / +481 deaths since DON616",
         "type": "milestone",
         "source": "WHO DON617"
+      },
+      {
+        "date": "2026-09-25",
+        "event": "WHO DON618: 7,911 confirmed (7,890 DRC), 3,801 deaths, CFR 48.1%, 63 HZ across 7 provinces (Sud Ubangi new). +1,133 cases / +532 deaths since DON617. Contact follow-up 83.4%.",
+        "type": "milestone",
+        "source": "WHO DON618"
       }
     ]
   },
@@ -218,7 +231,7 @@
       "provinces": [
         {
           "name": "Ituri",
-          "cases": 5406,
+          "cases": 6032,
           "deaths": 204,
           "health_zones_count": 28,
           "health_zones": [
@@ -234,7 +247,7 @@
         },
         {
           "name": "Nord-Kivu",
-          "cases": 1066,
+          "cases": 1480,
           "deaths": 20,
           "health_zones_count": 16,
           "health_zones": [
@@ -247,7 +260,8 @@
           ],
           "status": "expanding",
           "note": "Province case allocation is a working estimate, not official confirmed count. Goma-specific status requires verification from DRC MOH/WHO subnational data.",
-          "population_estimate": 8900000
+          "population_estimate": 8900000,
+          "cfr_note": "59.7%"
         },
         {
           "name": "Sud-Kivu",
@@ -263,7 +277,7 @@
         {
           "name": "Haut-U\u00e9l\u00e9",
           "status": "expanding",
-          "health_zones_count": 6,
+          "health_zones_count": 7,
           "population_estimate": 1700000
         },
         {
@@ -277,6 +291,17 @@
           "status": "new",
           "health_zones_count": 3,
           "population_estimate": 1100000
+        },
+        {
+          "name": "Sud Ubangi",
+          "cases": 1,
+          "health_zones_count": 1,
+          "health_zones": [
+            "Bulu"
+          ],
+          "status": "new",
+          "note": "First case reported 2026-09-10 (Bulu HZ). 7th affected province.",
+          "population_estimate": 1200000
         }
       ]
     },
@@ -440,6 +465,6 @@
       "description": "WorldPop estimates used; no census-level data for attack rates"
     }
   ],
-  "last_updated": "2026-09-10T00:00:00Z",
-  "primary_source": "WHO DON617 (2026-09-07)"
+  "last_updated": "2026-09-25T00:00:00Z",
+  "primary_source": "WHO DON618 (2026-09-23)"
 }
