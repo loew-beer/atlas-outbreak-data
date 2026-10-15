@@ -1,9 +1,9 @@
 {
   "metadata": {
     "title": "BDBV Outbreak Summary Data",
-    "last_updated": "2026-10-15T07:00:01Z",
+    "last_updated": "2026-10-15T08:00:01Z",
     "sources": {
-      "epidemiological": "WHO DON619 (2026-10-06); INRB-UMIE upstream pipeline",
+      "epidemiological": "WHO DON619 (2026-10-06); CDC Situation Summary (2026-10-14); INRB-UMIE upstream pipeline",
       "genomic": "Pathoplexus, Virological.org, NCBI GenBank",
       "response": "WHO, MSF, Africa CDC, CDC HAN 00530"
     },
@@ -24,28 +24,34 @@
     "pheic_date": "2026-05-17",
     "status": "ACTIVE",
     "who_grade": "GRADE 3",
-    "outbreak_day": 165
+    "outbreak_day": 173
   },
   "situation": {
     "cases": {
-      "confirmed": 8728,
-      "confirmed_drc": 8706,
+      "confirmed": 9167,
+      "confirmed_drc": 9144,
       "confirmed_uganda": 20,
       "confirmed_france": 1,
-      "confirmed_kenya": 1,
+      "confirmed_kenya": 2,
       "confirmed_netherlands": 1,
+      "netherlands_note": "Medically evacuated HCW; counted under DRC total per medevac convention",
       "probable_uganda": 1,
       "suspected_drc_moh": 206,
       "suspected_cdc_revised": 116,
-      "total": 8728,
+      "total": 9167,
       "suspected_note": "INRB-UMIE SitRep MVE-018 (June 2): 206 suspected. Down from peak ~1,077 (May 26) through data harmonization and reclassification. CDC cleaned dataset (June 3): 116 after continued revision."
     },
     "deaths": {
-      "confirmed": 4205,
-      "confirmed_drc": 4202,
+      "confirmed": 4413,
+      "confirmed_drc": 4410,
       "confirmed_uganda": 2,
       "confirmed_kenya": 1,
       "confirmed_france": 0,
+      "community_deaths_recent": 264,
+      "etu_deaths_recent": 108,
+      "recent_period_total": 372,
+      "community_pct": 71,
+      "community_period_source": "WHO DON619 (2026-10-06)",
       "probable_uganda": 1,
       "suspected_drc_moh": 220,
       "suspected_drc_moh_note": "Minimum estimate: DRC MoH reports >220 (at least 220)",
@@ -54,9 +60,9 @@
       "suspected_note": "DRC MoH reports >220 suspected deaths (05-30) - using 220 as conservative minimum. CDC shows 0 after data revision. WHO DON605 reports 223 suspected deaths (05-27)."
     },
     "cfr": {
-      "confirmed_only": 0.4818,
+      "confirmed_only": 0.4814,
       "combined": 0.232,
-      "caveat": "Death proportion: 48.2% (Wilson 95% CI 47.1\u201349.2%). Right-censored lower bound; outcomes of active cases unknown. Updated from WHO DON619 (2026-10-06): 4,205 deaths / 8,728 confirmed cases.",
+      "caveat": "Death proportion: 48.1% (CDC 2026-10-14: 4,413 deaths / 9,167 confirmed cases). Right-censored lower bound; outcomes of active cases unknown.",
       "confirmed_only_wilson_lo": 0.4712,
       "confirmed_only_wilson_hi": 0.4922,
       "confirmed_only_scope": "All confirmed cases (DRC+Uganda+France)"
@@ -69,7 +75,7 @@
       "travel_linked": 6,
       "travel_linked_of": 11,
       "travel_linked_don": "WHO DON605",
-      "cdc_date": "2026-06-05",
+      "cdc_date": "2026-10-14",
       "france": {
         "cases": 1,
         "deaths": 0,
@@ -86,11 +92,12 @@
       "don_number": 619,
       "don_date": "2026-10-08",
       "kenya": {
-        "cases": 1,
+        "cases": 2,
         "deaths": 1,
         "confirmed_date": "2026-10-08",
         "patient": "Imported case (travel-linked); deceased",
-        "source": "WHO DON619"
+        "source": "WHO DON619 + CDC Situation Summary (2026-10-14)",
+        "note": "Case 1 (DON619): imported, deceased. Case 2: reported by CDC 2026-10-14, details pending WHO DON."
       },
       "netherlands": {
         "cases": 1,
@@ -496,5 +503,5 @@
     }
   ],
   "last_updated": "2026-10-08T12:00:00Z",
-  "primary_source": "WHO DON619 (2026-10-06)"
+  "primary_source": "CDC Situation Summary (2026-10-14); WHO DON619 (2026-10-08)"
 }
