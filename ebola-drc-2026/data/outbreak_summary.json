@@ -228,6 +228,20 @@
         "source": "WHO DON606, French Ministry of Health"
       },
       {
+        "date": "2026-07-02",
+        "event": "PARTNERS treatment trial (MBP134, remdesivir) enrols first patient",
+        "type": "response",
+        "source": "Science",
+        "url": "https://www.science.org/content/article/first-ever-treatment-trial-ebola-bundibugyo-kicks-congo"
+      },
+      {
+        "date": "2026-08-07",
+        "event": "WHO urges Ervebo ring-vaccination trial; 70,000 doses made available",
+        "type": "response",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/8/7/ebola-cases-top-4000-in-drc-as-who-urges-ervebo-vaccine-trial"
+      },
+      {
         "date": "2026-08-14",
         "event": "WHO DON615: 4,686 confirmed, 2,184 DRC deaths, 6 provinces, 54 zones; peak week 32 (579 cases, 304 deaths)",
         "type": "milestone",
@@ -258,10 +272,31 @@
         "source": "WHO DON618"
       },
       {
+        "date": "2026-09-30",
+        "event": "Ebola transit centre burned in Kigonze displacement camp (Ituri)",
+        "type": "access",
+        "source": "UN News",
+        "url": "https://news.un.org/en/story/2026/10/1168499"
+      },
+      {
+        "date": "2026-10-05",
+        "event": "MSF warns North Kivu outbreak 'spreads like a megafire'",
+        "type": "response",
+        "source": "MSF",
+        "url": "https://www.msf.org/ebola-disease-outbreak-spreads-megafire-north-kivu"
+      },
+      {
         "date": "2026-10-08",
         "event": "WHO DON619: 8,728 confirmed (8,706 DRC), 4,205 deaths, CFR 48.2%, 64 HZ across 7 provinces. +817 cases / +404 deaths since DON618. Kenya 1 imported case (deceased); Netherlands 1 medevac HCW. Contact follow-up 80.4%.",
         "type": "milestone",
         "source": "WHO DON619"
+      },
+      {
+        "date": "2026-10-16",
+        "event": "Kenya: 2 household contacts of the imported case confirmed in quarantine",
+        "type": "cross_border",
+        "source": "WHO AFRO",
+        "url": "https://afro.who.int/countries/kenya/news/who-supports-kenyas-ebola-response-third-case-found-early-quarantine"
       }
     ]
   },
@@ -321,7 +356,7 @@
           "note": "Previously listed as 40 cases / 11 deaths without a source; corrected 2026-10-18 to Africa CDC #132. CDC: no confirmed case since 2026-05-29."
         },
         {
-          "name": "Haut-U\u00e9l\u00e9",
+          "name": "Haut-Uélé",
           "cases": 364,
           "deaths": 153,
           "status": "expanding",
@@ -341,7 +376,7 @@
           "as_of": "2026-10-06"
         },
         {
-          "name": "Bas-U\u00e9l\u00e9",
+          "name": "Bas-Uélé",
           "status": "expanding",
           "health_zones_count": 3,
           "population_estimate": 1100000,
