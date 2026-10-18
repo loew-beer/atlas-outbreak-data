@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "BDBV Outbreak Summary Data",
-    "last_updated": "2026-10-18T09:30:00Z",
+    "last_updated": "2026-10-18T10:00:01Z",
     "sources": {
       "epidemiological": "CDC situation summary (10-14); WHO DON619 (2026-10-06); INRB-UMIE upstream pipeline",
       "genomic": "Pathoplexus, Virological.org, NCBI GenBank",
@@ -282,7 +282,9 @@
             "Lumumba"
           ],
           "status": "epicenter",
-          "population_estimate": 5200000
+          "population_estimate": 5200000,
+          "source": "WHO DON619",
+          "as_of": "2026-10-06"
         },
         {
           "name": "Nord-Kivu",
@@ -300,18 +302,23 @@
           "status": "expanding",
           "note": "Province case allocation is a working estimate, not official confirmed count. Goma-specific status requires verification from DRC MOH/WHO subnational data.",
           "population_estimate": 8900000,
-          "cfr_note": "57.7%"
+          "cfr_note": "57.7%",
+          "source": "WHO DON619",
+          "as_of": "2026-10-06"
         },
         {
           "name": "Sud-Kivu",
-          "cases": 40,
-          "deaths": 11,
+          "cases": 3,
+          "deaths": 1,
           "health_zones_count": 1,
           "health_zones": [
             "Bukavu"
           ],
           "status": "limited",
-          "population_estimate": 6500000
+          "population_estimate": 6500000,
+          "source": "Africa CDC Sitrep #132",
+          "as_of": "2026-10-02",
+          "note": "Previously listed as 40 cases / 11 deaths without a source; corrected 2026-10-18 to Africa CDC #132. CDC: no confirmed case since 2026-05-29."
         },
         {
           "name": "Haut-Uélé",
@@ -319,7 +326,9 @@
           "deaths": 153,
           "status": "expanding",
           "health_zones_count": 7,
-          "population_estimate": 1700000
+          "population_estimate": 1700000,
+          "source": "WHO DON619",
+          "as_of": "2026-10-06"
         },
         {
           "name": "Tshopo",
@@ -327,24 +336,33 @@
           "deaths": 17,
           "status": "expanding",
           "health_zones_count": 7,
-          "population_estimate": 2600000
+          "population_estimate": 2600000,
+          "source": "WHO DON619",
+          "as_of": "2026-10-06"
         },
         {
           "name": "Bas-Uélé",
           "status": "expanding",
           "health_zones_count": 3,
-          "population_estimate": 1100000
+          "population_estimate": 1100000,
+          "source": "Africa CDC Sitrep #132",
+          "as_of": "2026-10-02",
+          "cases": 10,
+          "deaths": 4
         },
         {
           "name": "Sud Ubangi",
-          "cases": 1,
+          "cases": 2,
           "health_zones_count": 1,
           "health_zones": [
             "Bulu"
           ],
           "status": "new",
           "note": "First case reported 2026-09-10 (Bulu HZ). 7th affected province.",
-          "population_estimate": 1200000
+          "population_estimate": 1200000,
+          "source": "Africa CDC Sitrep #132",
+          "as_of": "2026-10-02",
+          "deaths": 1
         }
       ],
       "reported_unconfirmed": [
