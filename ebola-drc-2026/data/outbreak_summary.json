@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "BDBV Outbreak Summary Data",
-    "last_updated": "2026-10-18T11:00:01Z",
+    "last_updated": "2026-10-18T14:00:01Z",
     "sources": {
       "epidemiological": "CDC situation summary (10-14); WHO DON619 (2026-10-06); INRB-UMIE upstream pipeline",
       "genomic": "Pathoplexus, Virological.org, NCBI GenBank",
@@ -356,7 +356,7 @@
           "note": "Previously listed as 40 cases / 11 deaths without a source; corrected 2026-10-18 to Africa CDC #132. CDC: no confirmed case since 2026-05-29."
         },
         {
-          "name": "Haut-Uélé",
+          "name": "Haut-U\u00e9l\u00e9",
           "cases": 364,
           "deaths": 153,
           "status": "expanding",
@@ -376,7 +376,7 @@
           "as_of": "2026-10-06"
         },
         {
-          "name": "Bas-Uélé",
+          "name": "Bas-U\u00e9l\u00e9",
           "status": "expanding",
           "health_zones_count": 3,
           "population_estimate": 1100000,
