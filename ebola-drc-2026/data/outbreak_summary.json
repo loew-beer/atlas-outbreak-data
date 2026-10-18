@@ -92,12 +92,18 @@
       "don_number": 619,
       "don_date": "2026-10-08",
       "kenya": {
-        "cases": 2,
+        "cases": 3,
+        "imported": 1,
+        "local": 2,
         "deaths": 1,
+        "as_of": "2026-10-16",
         "confirmed_date": "2026-10-08",
-        "patient": "Imported case (travel-linked); deceased",
-        "source": "WHO DON619 + CDC situation summary (as of 2026-10-14)",
-        "note": "Case 1 (DON619): imported, deceased. Case 2: reported by CDC 2026-10-14, details pending WHO DON."
+        "patient": "Case 1 imported from DRC, died 2026-10-05. Cases 2 (39M, confirmed 10-14) and 3 (65F, confirmed 10-16): household contacts of case 1, detected in quarantine, stable.",
+        "contacts_in_quarantine": 127,
+        "contacts_identified": 130,
+        "community_transmission": false,
+        "source": "Kenya MoH via WHO AFRO (2026-10-16); WHO DON619",
+        "note": "CDC total (as of 2026-10-14) still counts 2 Kenya cases; case 3 not yet in CDC figures."
       },
       "netherlands": {
         "cases": 1,
@@ -339,6 +345,16 @@
           "status": "new",
           "note": "First case reported 2026-09-10 (Bulu HZ). 7th affected province.",
           "population_estimate": 1200000
+        }
+      ],
+      "reported_unconfirmed": [
+        {
+          "name": "Nord-Ubangi",
+          "cases": 2,
+          "reported": "2026-10-15",
+          "status": "reported_unconfirmed",
+          "source": "Media citing officials (TimesLive/Reuters, 2026-10-15)",
+          "note": "Would be 8th affected province; borders Central African Republic. Not yet in WHO, CDC or Africa CDC counts as of 2026-10-18."
         }
       ]
     },
