@@ -3,7 +3,7 @@ title: "Ebola DRC 2026 — data sources"
 project: ebola-drc-2026
 type: sources
 generated_by: sources_list.py
-updated: 2026-10-19 06:22 UTC
+updated: 2026-10-19 08:16 UTC
 ---
 
 # Data sources — Ebola (Bundibugyo) DRC 2026
@@ -46,18 +46,18 @@ Published snapshots only; definitions differ by source, so they are not joined i
 
 | Figure | Value | As of | Source |
 |---|---|---|---|
-| People displaced in Ituri | 1.1 million+ | 2026-09-28 | [UN News / OCHA](https://www.globalsecurity.org/security/library/news/2026/09/sec-260928-unnews01.htm) |
-| Displaced people in Ituri and North Kivu | 4.4 million | 2026-09-28 | [UN News / OCHA](https://www.globalsecurity.org/security/library/news/2026/09/sec-260928-unnews01.htm) |
+| People displaced in Ituri | 1.1 million+ | 2026-09-28 | [UN News / OCHA](https://news.un.org/en/story/2026/09/1168465) |
+| Displaced people in the five provinces with confirmed cases | 4.4 million | 2026-08-06 | [UN News / UNHCR](https://news.un.org/en/story/2026/08/1168092) |
 | People in Ituri facing crisis-level hunger or worse | 1.7 million | 2026-10-06 | [WFP](https://www.wfp.org/stories/eastern-drc-ebola-outbreak-threatens-deepen-hunger-wfp-ramps-emergency-support) |
-| Children orphaned or separated by Ebola | 1,900+ | 2026-09-28 | [UNICEF via UN News](https://www.globalsecurity.org/security/library/news/2026/09/sec-260928-unnews01.htm) |
+| Children orphaned or separated by Ebola | 1,900+ | 2026-09-28 | [UNICEF](https://www.unicef.org/press-releases/more-1900-children-orphaned-or-separated-their-families-ebola-eastern-dr-congo) |
 | Drop in use of essential health services in hotspots | -42% | 2026-08-05 | [UNICEF](https://www.unicef.org/press-releases/dr-congo-ebola-child-deaths-pass-300-unicef-warns-outbreak-also-threatens-essential) |
 | Drop in first-dose measles vaccination, Mongbwalu | -69% | 2026-08-05 | [UNICEF](https://www.unicef.org/press-releases/dr-congo-ebola-child-deaths-pass-300-unicef-warns-outbreak-also-threatens-essential) |
 | Suspected measles cases nationally, Jan-Jul 2026 | 108,643 | 2026-07-19 | [MSF](https://www.doctorswithoutborders.org/latest/ebola-disease-response-continues-other-health-needs-dr-congo-must-not-be-neglected) |
 | DRC humanitarian response plan funded | 48% | 2026-09-01 | [OCHA](https://www.unocha.org/publications/report/democratic-republic-congo/mr-tom-fletcher-under-secretary-general-humanitarian-affairs-and-emergency-relief-coordinator-virtual-briefing-member-states-ebola-outbreak-democratic-republic-congo-1-september-2026) |
 | UNFPA Ebola appeal funded | 9% | 2026-10-01 | [UNFPA](https://ifp.nyu.edu/2026/grey-literature/unfpa-ebola-outbreak-democratic-republic-congo-appeal-june-november-2026/) |
+| Insecurity restricts humanitarian access to Fataki, Drodro and Lita health zones; some aid organisations suspe | Ituri | 2026-10-01 | [UN News / OCHA](https://news.un.org/en/story/2026/10/1168499) |
 | Ebola transit centre burned down in Kigonze displacement camp (about 19,000 people) after soldiers entered the | Ituri | 2026-09-30 | [UN News](https://news.un.org/en/story/2026/10/1168499) |
-| Clashes at Rhoe displacement camp (Djugu) displaced more than 3,000 people, mostly women and children. | Ituri | 2026-09-27 | [UN News / OCHA](https://www.globalsecurity.org/security/library/news/2026/09/sec-260928-unnews01.htm) |
-| Fighting restricts humanitarian access to Fataki, Drodro and Lita health zones; some organisations suspended a | Ituri | 2026-09-28 | [UN News / OCHA](https://www.globalsecurity.org/security/library/news/2026/09/sec-260928-unnews01.htm) |
+| More than 3,000 people fled Rhoe displacement camp (Djugu) after clashes intensified on 27 September. | Ituri | 2026-09-27 | [UN News / OCHA](https://news.un.org/en/story/2026/10/1168499) |
 | Fighting in Masisi displaced more than 24,000 people since mid-September. | Nord-Kivu | 2026-09-15 | [UN News / OCHA](https://news.un.org/en/story/2026/10/1168499) |
 | PARTNERS trial (MBP134, remdesivir) | Enrolling since 2026-07-02; no results published |  | [Science](https://www.science.org/content/article/first-ever-treatment-trial-ebola-bundibugyo-kicks-congo) |
 | Ervebo ring-vaccination trial (cross-protection) | Phase 3, 70,000 doses made available; no efficacy results published. Evidence for cross-protection is limited |  | [Al Jazeera; medRxiv meta-analysis](https://www.aljazeera.com/news/2026/8/7/ebola-cases-top-4000-in-drc-as-who-urges-ervebo-vaccine-trial) |
