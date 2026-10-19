@@ -4,12 +4,14 @@ project: ebola-drc-2026
 type: evidence-scan
 created: 2026-05-29
 updated: 2026-05-30
-status: active
+status: archived
 tags:
   - sources
   - ebola
   - DRC
 ---
+
+> **Archived 19 October 2026.** Initial evidence scan from 29–30 May 2026 (125 confirmed cases at the time); kept for the record and not updated. Current figures: 00-Status and outbreak.loew-beer.at.
 
 # Sources — Ebola Bundibugyo Outbreak, DRC 2026
 
