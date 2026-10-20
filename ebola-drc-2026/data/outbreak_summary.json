@@ -1,9 +1,9 @@
 {
   "metadata": {
     "title": "BDBV Outbreak Summary Data",
-    "last_updated": "2026-10-20T17:00:01Z",
+    "last_updated": "2026-10-20T18:00:01Z",
     "sources": {
-      "epidemiological": "CDC situation summary (10-18); WHO DON619 (2026-10-06); INRB-UMIE upstream pipeline",
+      "epidemiological": "CDC situation summary (10-20); WHO DON619 (2026-10-06); INRB-UMIE upstream pipeline",
       "genomic": "Pathoplexus, Virological.org, NCBI GenBank",
       "response": "WHO, MSF, Africa CDC, CDC HAN 00530"
     },
@@ -28,11 +28,11 @@
   },
   "situation": {
     "cases": {
-      "confirmed": 9581,
+      "confirmed": 9582,
       "confirmed_drc": 9552,
       "confirmed_uganda": 20,
       "confirmed_france": 1,
-      "confirmed_kenya": 8,
+      "confirmed_kenya": 9,
       "confirmed_netherlands": 1,
       "netherlands_note": "Medically evacuated HCW; counted under DRC total per medevac convention",
       "probable_uganda": 1,
@@ -62,7 +62,7 @@
     "cfr": {
       "confirmed_only": 0.4806,
       "combined": 0.232,
-      "caveat": "Death proportion: 48.1% (CDC situation summary, as of 2026-10-18: 4,605 deaths / 9,581 confirmed). Right-censored lower bound; outcomes of active cases unknown.",
+      "caveat": "Death proportion: 48.1% (CDC situation summary, as of 2026-10-20: 4,605 deaths / 9,582 confirmed). Right-censored lower bound; outcomes of active cases unknown.",
       "confirmed_only_wilson_lo": 0.4712,
       "confirmed_only_wilson_hi": 0.4922,
       "confirmed_only_scope": "All confirmed cases (DRC+Uganda+France)"
@@ -75,7 +75,7 @@
       "travel_linked": 6,
       "travel_linked_of": 11,
       "travel_linked_don": "WHO DON605",
-      "cdc_date": "2026-10-18",
+      "cdc_date": "2026-10-20",
       "france": {
         "cases": 1,
         "deaths": 0,
