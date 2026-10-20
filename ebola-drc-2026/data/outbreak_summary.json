@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "BDBV Outbreak Summary Data",
-    "last_updated": "2026-10-20T00:00:01Z",
+    "last_updated": "2026-10-20T01:00:01Z",
     "sources": {
       "epidemiological": "CDC situation summary (10-18); WHO DON619 (2026-10-06); INRB-UMIE upstream pipeline",
       "genomic": "Pathoplexus, Virological.org, NCBI GenBank",
@@ -24,12 +24,12 @@
     "pheic_date": "2026-05-17",
     "status": "ACTIVE",
     "who_grade": "GRADE 3",
-    "outbreak_day": 178
+    "outbreak_day": 179
   },
   "situation": {
     "cases": {
-      "confirmed": 9484,
-      "confirmed_drc": 9455,
+      "confirmed": 9581,
+      "confirmed_drc": 9552,
       "confirmed_uganda": 20,
       "confirmed_france": 1,
       "confirmed_kenya": 8,
@@ -42,8 +42,8 @@
       "suspected_note": "INRB-UMIE SitRep MVE-018 (June 2): 206 suspected. Down from peak ~1,077 (May 26) through data harmonization and reclassification. CDC cleaned dataset (June 3): 116 after continued revision."
     },
     "deaths": {
-      "confirmed": 4564,
-      "confirmed_drc": 4561,
+      "confirmed": 4605,
+      "confirmed_drc": 4602,
       "confirmed_uganda": 2,
       "confirmed_kenya": 1,
       "confirmed_france": 0,
@@ -60,9 +60,9 @@
       "suspected_note": "DRC MoH reports >220 suspected deaths (05-30) - using 220 as conservative minimum. CDC shows 0 after data revision. WHO DON605 reports 223 suspected deaths (05-27)."
     },
     "cfr": {
-      "confirmed_only": 0.4812,
+      "confirmed_only": 0.4806,
       "combined": 0.232,
-      "caveat": "Death proportion: 48.1% (CDC situation summary, as of 2026-10-18: 4,564 deaths / 9,484 confirmed). Right-censored lower bound; outcomes of active cases unknown.",
+      "caveat": "Death proportion: 48.1% (CDC situation summary, as of 2026-10-18: 4,605 deaths / 9,581 confirmed). Right-censored lower bound; outcomes of active cases unknown.",
       "confirmed_only_wilson_lo": 0.4712,
       "confirmed_only_wilson_hi": 0.4922,
       "confirmed_only_scope": "All confirmed cases (DRC+Uganda+France)"

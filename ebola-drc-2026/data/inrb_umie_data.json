@@ -753,7 +753,7 @@
     },
     {
       "date": "2026-10-18",
-      "new_confirmed": 9455,
+      "new_confirmed": 9552,
       "new_suspected": 0,
       "source_note": "CDC aggregate (10-14\u219210-18), 4d",
       "cdc_supplement": true
@@ -1724,8 +1724,8 @@
     },
     {
       "date": "2026-10-18",
-      "confirmed_cases": 9455,
-      "confirmed_deaths": 4561,
+      "confirmed_cases": 9552,
+      "confirmed_deaths": 4602,
       "suspected_cases": null,
       "suspected_deaths": null,
       "total_cases": null,
@@ -3318,14 +3318,14 @@
     "date_drc": "2026-10-18",
     "date_uganda": "2026-10-18",
     "date_france": null,
-    "confirmed_drc": 9455,
-    "confirmed_deaths_drc": 4561,
+    "confirmed_drc": 9552,
+    "confirmed_deaths_drc": 4602,
     "confirmed_uganda": 20,
     "confirmed_deaths_uganda": 2,
     "confirmed_france": 1,
     "confirmed_deaths_france": 0,
-    "total_confirmed": 9484,
-    "total_deaths": 4564,
+    "total_confirmed": 9581,
+    "total_deaths": 4605,
     "source": "CDC ebola-case-counts-web-updates.csv (DRC: 2026-10-18, Uganda: 2026-10-18, France: ?)"
   }
 }
