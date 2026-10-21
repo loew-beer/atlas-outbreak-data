@@ -3,7 +3,7 @@ title: "Ebola DRC 2026 — data sources"
 project: ebola-drc-2026
 type: sources
 generated_by: sources_list.py
-updated: 2026-10-21 06:00 UTC
+updated: 2026-10-21 17:08 UTC
 ---
 
 # Data sources — Ebola (Bundibugyo) DRC 2026
@@ -28,7 +28,7 @@ updated: 2026-10-21 06:00 UTC
 - [WHO DON617](https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON617), 2026-09-10
 - [WHO DON618](https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON618), 2026-09-25
 - [WHO DON619](https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON619), 2026-10-08
-- Kenya cases: Kenya MoH via WHO AFRO (2026-10-16); WHO DON619
+- Kenya cases: Kenya MoH via CDC situation summary (2026-10-20)
 
 ## Contact follow-up figures
 

@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "BDBV Outbreak Summary Data",
-    "last_updated": "2026-10-21T17:00:01Z",
+    "last_updated": "2026-10-21T17:08:40Z",
     "sources": {
       "epidemiological": "CDC situation summary (10-20); WHO DON619 (2026-10-06); INRB-UMIE upstream pipeline",
       "genomic": "Pathoplexus, Virological.org, NCBI GenBank",
@@ -24,11 +24,11 @@
     "pheic_date": "2026-05-17",
     "status": "ACTIVE",
     "who_grade": "GRADE 3",
-    "outbreak_day": 179
+    "outbreak_day": 180
   },
   "situation": {
     "cases": {
-      "confirmed": 9582,
+      "confirmed": 9583,
       "confirmed_drc": 9552,
       "confirmed_uganda": 20,
       "confirmed_france": 1,
@@ -39,7 +39,8 @@
       "suspected_drc_moh": 206,
       "suspected_cdc_revised": 116,
       "total": 9300,
-      "suspected_note": "INRB-UMIE SitRep MVE-018 (June 2): 206 suspected. Down from peak ~1,077 (May 26) through data harmonization and reclassification. CDC cleaned dataset (June 3): 116 after continued revision."
+      "suspected_note": "INRB-UMIE SitRep MVE-018 (June 2): 206 suspected. Down from peak ~1,077 (May 26) through data harmonization and reclassification. CDC cleaned dataset (June 3): 116 after continued revision.",
+      "confirmed_nigeria": 1
     },
     "deaths": {
       "confirmed": 4605,
@@ -57,12 +58,13 @@
       "suspected_drc_moh_note": "Minimum estimate: DRC MoH reports >220 (at least 220)",
       "suspected_cdc_revised": 0,
       "total": 49,
-      "suspected_note": "DRC MoH reports >220 suspected deaths (05-30) - using 220 as conservative minimum. CDC shows 0 after data revision. WHO DON605 reports 223 suspected deaths (05-27)."
+      "suspected_note": "DRC MoH reports >220 suspected deaths (05-30) - using 220 as conservative minimum. CDC shows 0 after data revision. WHO DON605 reports 223 suspected deaths (05-27).",
+      "confirmed_nigeria": 0
     },
     "cfr": {
-      "confirmed_only": 0.4806,
+      "confirmed_only": 0.4805,
       "combined": 0.232,
-      "caveat": "Death proportion: 48.1% (CDC situation summary, as of 2026-10-20: 4,605 deaths / 9,582 confirmed). Right-censored lower bound; outcomes of active cases unknown.",
+      "caveat": "Death proportion: 48.0% (CDC situation summary, as of 2026-10-20: 4,605 deaths / 9,583 confirmed). Right-censored lower bound; outcomes of active cases unknown.",
       "confirmed_only_wilson_lo": 0.4712,
       "confirmed_only_wilson_hi": 0.4922,
       "confirmed_only_scope": "All confirmed cases (DRC+Uganda+France)"
@@ -92,18 +94,19 @@
       "don_number": 619,
       "don_date": "2026-10-08",
       "kenya": {
-        "cases": 3,
+        "cases": 9,
         "imported": 1,
-        "local": 2,
+        "local": 8,
         "deaths": 1,
-        "as_of": "2026-10-16",
+        "as_of": "2026-10-20",
         "confirmed_date": "2026-10-08",
-        "patient": "Case 1 imported from DRC, died 2026-10-05. Cases 2 (39M, confirmed 10-14) and 3 (65F, confirmed 10-16): household contacts of case 1, detected in quarantine, stable.",
+        "patient": "Case 1 travelled from DRC via Uganda to Nairobi and died in isolation (reported 2026-10-06). Further cases were relatives or healthcare providers in close contact with case 1; all were in quarantine when diagnosed; all in Nairobi.",
         "contacts_in_quarantine": 127,
         "contacts_identified": 130,
         "community_transmission": false,
-        "source": "Kenya MoH via WHO AFRO (2026-10-16); WHO DON619",
-        "note": "CDC total (as of 2026-10-14) still counts 2 Kenya cases; case 3 not yet in CDC figures."
+        "source": "Kenya MoH via CDC situation summary (2026-10-20)",
+        "note": "Kenya MoH reports no community spread.",
+        "local_desc": "relatives or health workers, all already in quarantine when diagnosed"
       },
       "netherlands": {
         "cases": 1,
@@ -117,7 +120,22 @@
       "uganda_monitoring_complete": "2026-08-27",
       "uganda_outbreak_end": "2026-07-28",
       "germany_medevac": 2,
-      "germany_note": "2 DRC-confirmed cases medically evacuated to Germany; counted under DRC total (no local Germany transmission)"
+      "germany_note": "2 DRC-confirmed cases medically evacuated to Germany; counted under DRC total (no local Germany transmission)",
+      "nigeria": {
+        "cases": 1,
+        "deaths": 0,
+        "imported": 1,
+        "as_of": "2026-10-20",
+        "confirmed_date": "2026-10-20",
+        "patient": "Woman who travelled from Uganda, arrived in Abuja on 3 Oct, symptom onset 7 Oct, sought care at a private facility in Abuja on 11 Oct; Bundibugyo virus confirmed 20 Oct. In isolation, receiving care.",
+        "contacts_monitored": 44,
+        "source_of_infection": "under investigation",
+        "source": "Nigeria via WHO AFRO (2026-10-20); UN News (2026-10-21)",
+        "urls": [
+          "https://afro.who.int/countries/nigeria/news/nigeria-confirms-imported-case-ebola-bundibugyo-virus-disease",
+          "https://news.un.org/en/story/2026/10/1168637"
+        ]
+      }
     },
     "trend": "INCREASING",
     "doubling_time_days": null,
