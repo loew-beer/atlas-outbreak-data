@@ -3,7 +3,7 @@ title: "Ebola DRC 2026 — data sources"
 project: ebola-drc-2026
 type: sources
 generated_by: sources_list.py
-updated: 2026-10-21 17:08 UTC
+updated: 2026-10-22 04:00 UTC
 ---
 
 # Data sources — Ebola (Bundibugyo) DRC 2026
@@ -62,14 +62,22 @@ Published snapshots only; definitions differ by source, so they are not joined i
 | PARTNERS trial (MBP134, remdesivir) | Enrolling since 2026-07-02; no results published |  | [Science](https://www.science.org/content/article/first-ever-treatment-trial-ebola-bundibugyo-kicks-congo) |
 | Ervebo ring-vaccination trial (cross-protection) | Phase 3, 70,000 doses made available; no efficacy results published. Evidence for cross-protection is limited |  | [Al Jazeera; medRxiv meta-analysis](https://www.aljazeera.com/news/2026/8/7/ebola-cases-top-4000-in-drc-as-who-urges-ervebo-vaccine-trial) |
 
-## Reviewed literature and reports (23 approved)
+## Reviewed literature and reports (31 approved)
 
 Found by the twice-weekly scan (UN News, MSF, Europe PMC) and approved by a person before use.
 
+- 2026-10-21: [WHO supports Nigeria after first Ebola case confirmed](https://news.un.org/feed/view/en/story/2026/10/1168637) — UN News
+- 2026-10-16: [Early detection of immunoglobulin A against a vaccine backbone protein enables fast, durable, and objective identification of individuals vaccinated against Ebola virus](https://doi.org/10.1016/j.ebiom.2026.106515) — EBioMedicine
 - 2026-10-16: [WHO scales up Ebola readiness in 22 countries across three continents](https://news.un.org/feed/view/en/story/2026/10/1168613) — UN News
+- 2026-10-15: [The Storm We Chose: Bundibugyo Virus, Preparedness Injustice, and the Pathogens We Decline to Fight](https://doi.org/10.1111/dewb.70058) — Developing world bioethics
+- 2026-10-15: [Cross-neutralisation of authentic Ebola virus and Bundibugyo virus following natural infection or Ervebo vaccination](https://doi.org/10.1016/s1473-3099(26)00544-x) — The Lancet. Infectious diseases
 - 2026-10-15: [Children are being left behind in the Ebola disease response](https://www.msf.org/children-are-being-left-behind-ebola-disease-response) — MSF
 - 2026-10-15: [WHO urges vigilance after Kenya confirms second Ebola case](https://news.un.org/feed/view/en/story/2026/10/1168602) — UN News
 - 2026-10-14: [DR Congo: Cholera cases spike amid fight against Ebola](https://news.un.org/feed/view/en/story/2026/10/1168595) — UN News
+- 2026-10-13: [Case of Bundibugyo Virus Disease in Goma, Democratic Republic of the Congo with Lack of Transmission to Breastfeeding Infant](https://doi.org/10.4269/ajtmh.26-0480) — The American journal of tropical medicine and hygiene
+- 2026-10-13: [Cross-reactive T-cell responses against BDBV in humans after rVSVΔG-ZEBOV-GP vaccination](https://doi.org/10.1016/s1473-3099(26)00529-3) — The Lancet. Infectious diseases
+- 2026-10-12: [Building equitable epidemic response: the Interdisciplinary Consortium for Epidemics Research (ICER) position on Bundibugyo ebolavirus and regional preparedness in sub-Saharan Africa](https://doi.org/10.1016/j.ijid.2026.109163) — International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases
+- 2026-10-12: [Bundibugyo Ebola virus disease re-emergence: lessons from earlier outbreaks](https://doi.org/10.1080/23744235.2026.2736028) — Infectious diseases (London, England)
 - 2026-10-08: [Bundibugyo virus: coordinating a cross-border response](https://doi.org/10.1016/s0140-6736(26)01980-x) — Lancet (London, England)
 - 2026-10-08: [Sixteen Days Undetected: Growth Dynamics and the Case for Pre-Positioned Response Capacity in the 2026 Bundibugyo Virus Disease Outbreak, Democratic Republic of the Congo](https://doi.org/10.1016/j.ijid.2026.109170) — International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases
 - 2026-10-08: [Ebola: Kenya marks first case and fatality in Bundibugyo strain outbreak](https://doi.org/10.1136/bmj-2026-101091) — BMJ (Clinical research ed.)
