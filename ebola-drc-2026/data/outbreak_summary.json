@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "BDBV Outbreak Summary Data",
-    "last_updated": "2026-10-23T18:00:01Z",
+    "last_updated": "2026-10-23T19:00:01Z",
     "sources": {
       "epidemiological": "CDC situation summary (10-21); WHO DON619 (2026-10-06); INRB-UMIE upstream pipeline",
       "genomic": "Pathoplexus, Virological.org, NCBI GenBank",
@@ -48,11 +48,11 @@
       "confirmed_uganda": 2,
       "confirmed_kenya": 1,
       "confirmed_france": 0,
-      "community_deaths_recent": 264,
-      "etu_deaths_recent": 108,
-      "recent_period_total": 372,
-      "community_pct": 71,
-      "community_period_source": "WHO DON619 (2026-10-06)",
+      "community_deaths_recent": 307,
+      "etu_deaths_recent": 175,
+      "recent_period_total": 482,
+      "community_pct": 64,
+      "community_period_source": "WHO DON622 (8–20 Oct 2026)",
       "probable_uganda": 1,
       "suspected_drc_moh": 220,
       "suspected_drc_moh_note": "Minimum estimate: DRC MoH reports >220 (at least 220)",
@@ -101,12 +101,13 @@
         "as_of": "2026-10-20",
         "confirmed_date": "2026-10-08",
         "patient": "Case 1 travelled from DRC via Uganda to Nairobi and died in isolation (reported 2026-10-06). Further cases were relatives or healthcare providers in close contact with case 1; all were in quarantine when diagnosed; all in Nairobi.",
-        "contacts_in_quarantine": 127,
-        "contacts_identified": 130,
+        "contacts_in_quarantine": 135,
+        "contacts_identified": 135,
         "community_transmission": false,
-        "source": "Kenya MoH via CDC situation summary (2026-10-20)",
+        "source": "Kenya MoH; WHO DON622 (2026-10-20)",
         "note": "Kenya MoH reports no community spread.",
-        "local_desc": "relatives or health workers, all already in quarantine when diagnosed"
+        "local_desc": "contacts of case 1 (4 family members, 4 health and care workers), all in quarantine when diagnosed",
+        "travellers_screened": 709093
       },
       "netherlands": {
         "cases": 1,
@@ -150,11 +151,11 @@
       "confirmed_netherlands": 0
     },
     "contacts_24h": {
-      "monitored": 23741,
-      "requiring_followup": 29535,
-      "coverage_pct": 80.4,
-      "as_of": "2026-10-06",
-      "source": "WHO DON619"
+      "monitored": 24017,
+      "requiring_followup": 30130,
+      "coverage_pct": 79.7,
+      "as_of": "2026-10-20",
+      "source": "WHO DON622"
     }
   },
   "temporal": {
@@ -315,6 +316,27 @@
         "type": "cross_border",
         "source": "WHO AFRO",
         "url": "https://afro.who.int/countries/kenya/news/who-supports-kenyas-ebola-response-third-case-found-early-quarantine"
+      },
+      {
+        "date": "2026-10-20",
+        "event": "Nigeria confirms an imported case in Abuja (travelled from Uganda); 44 contacts monitored",
+        "type": "cross_border",
+        "source": "WHO AFRO",
+        "url": "https://afro.who.int/countries/nigeria/news/nigeria-confirms-imported-case-ebola-bundibugyo-virus-disease"
+      },
+      {
+        "date": "2026-10-23",
+        "event": "WHO DON622: 9,704 confirmed DRC, 4,687 deaths, CFR 48.3%, 66 HZ across 8 provinces (Nord-Ubangi new). +976 cases / +482 deaths since DON619; 64% of new deaths in the community. Kenya 9 cases, Nigeria 1. Contact follow-up 79.7%.",
+        "type": "milestone",
+        "source": "WHO DON622",
+        "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON622"
+      },
+      {
+        "date": "2026-10-23",
+        "event": "TUMAINI Phase 2/3 ring-vaccination trial launched in Bunia (Ervebo + two Bundibugyo-specific candidates)",
+        "type": "intervention",
+        "source": "CEPI",
+        "url": "https://cepi.net/first-participant-vaccinated-pivotal-phase-23-bundibugyo-vaccine-trial-drc"
       }
     ]
   },
@@ -323,8 +345,8 @@
       "provinces": [
         {
           "name": "Ituri",
-          "cases": 6480,
-          "deaths": 2989,
+          "cases": 7040,
+          "deaths": 3271,
           "health_zones_count": 28,
           "health_zones": [
             "Bunia",
@@ -336,13 +358,13 @@
           ],
           "status": "epicenter",
           "population_estimate": 5200000,
-          "source": "WHO DON619",
-          "as_of": "2026-10-06"
+          "source": "WHO DON622",
+          "as_of": "2026-10-20"
         },
         {
           "name": "Nord-Kivu",
-          "cases": 1755,
-          "deaths": 1013,
+          "cases": 2146,
+          "deaths": 1199,
           "health_zones_count": 17,
           "health_zones": [
             "Butembo",
@@ -356,8 +378,8 @@
           "note": "Province case allocation is a working estimate, not official confirmed count. Goma-specific status requires verification from DRC MOH/WHO subnational data.",
           "population_estimate": 8900000,
           "cfr_note": "57.7%",
-          "source": "WHO DON619",
-          "as_of": "2026-10-06"
+          "source": "WHO DON622",
+          "as_of": "2026-10-20"
         },
         {
           "name": "Sud-Kivu",
@@ -374,27 +396,27 @@
           "note": "Previously listed as 40 cases / 11 deaths without a source; corrected 2026-10-18 to Africa CDC #132. CDC: no confirmed case since 2026-05-29."
         },
         {
-          "name": "Haut-U\u00e9l\u00e9",
-          "cases": 364,
-          "deaths": 153,
+          "name": "Haut-Uélé",
+          "cases": 421,
+          "deaths": 183,
           "status": "expanding",
           "health_zones_count": 7,
           "population_estimate": 1700000,
-          "source": "WHO DON619",
-          "as_of": "2026-10-06"
+          "source": "WHO DON622",
+          "as_of": "2026-10-20"
         },
         {
           "name": "Tshopo",
-          "cases": 51,
-          "deaths": 17,
+          "cases": 76,
+          "deaths": 27,
           "status": "expanding",
           "health_zones_count": 7,
           "population_estimate": 2600000,
-          "source": "WHO DON619",
-          "as_of": "2026-10-06"
+          "source": "WHO DON622",
+          "as_of": "2026-10-20"
         },
         {
-          "name": "Bas-U\u00e9l\u00e9",
+          "name": "Bas-Uélé",
           "status": "expanding",
           "health_zones_count": 3,
           "population_estimate": 1100000,
@@ -416,18 +438,16 @@
           "source": "Africa CDC Sitrep #132",
           "as_of": "2026-10-02",
           "deaths": 1
-        }
-      ],
-      "reported_unconfirmed": [
+        },
         {
           "name": "Nord-Ubangi",
-          "cases": 2,
-          "reported": "2026-10-15",
-          "status": "reported_unconfirmed",
-          "source": "Media citing officials (TimesLive/Reuters, 2026-10-15)",
-          "note": "Would be 8th affected province; borders Central African Republic. Not yet in WHO, CDC or Africa CDC counts as of 2026-10-18."
+          "cases": 3,
+          "deaths": 1,
+          "source": "WHO DON622",
+          "as_of": "2026-10-20"
         }
-      ]
+      ],
+      "reported_unconfirmed": []
     },
     "uganda": {
       "regions": [
@@ -590,5 +610,5 @@
     }
   ],
   "last_updated": "2026-10-08T12:00:00Z",
-  "primary_source": "CDC situation summary (as of 2026-10-14, revised); WHO DON619 (2026-10-08)"
+  "primary_source": "CDC situation summary (as of 2026-10-14, revised); WHO DON622 (2026-10-23)"
 }

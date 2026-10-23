@@ -3,7 +3,7 @@ title: "Ebola DRC 2026 — data sources"
 project: ebola-drc-2026
 type: sources
 generated_by: sources_list.py
-updated: 2026-10-23 15:00 UTC
+updated: 2026-10-23 19:01 UTC
 ---
 
 # Data sources — Ebola (Bundibugyo) DRC 2026
@@ -16,7 +16,7 @@ updated: 2026-10-23 15:00 UTC
 |---|---|---|---|---|
 | [INSP situation reports via INRB-UMIE](https://github.com/INRB-UMIE/Ebola_DRC_2026) | National and health-zone confirmed cases, deaths, recoveries, suspected cases in isolation, PCR machine list, WorldPop population by zone. Primary source for all case series and charts. Notification dates, not onset dates. Code MIT; data reused with attribution. | Automatic, hourly (digitised INSP sitreps; INRB-UMIE build files). | 2026-10-19 | current |
 | [CDC Ebola situation summary](https://www.cdc.gov/ebola/situation-summary/index.html) | Confirmed cases and deaths by country (DRC, Uganda, Kenya, France). Used for headline totals across countries and as a cross-check of INSP. | Automatic, hourly, through a public reader proxy (r.jina.ai) because CDC blocks server requests. | 2026-10-21 | current |
-| [WHO Disease Outbreak News](https://www.who.int/emergencies/disease-outbreak-news) | Official situation updates: totals, provinces, contact follow-up, risk assessment. Ebola DONs in this outbreak: DON602, 603, 605, 606, 615–619 (DON604 is hantavirus, DON620 is not Ebola). | New DONs detected automatically (RSS); figures entered after review. | 2026-10-08 | current |
+| [WHO Disease Outbreak News](https://www.who.int/emergencies/disease-outbreak-news) | Official situation updates: totals, provinces, contact follow-up, risk assessment. Ebola DONs in this outbreak: DON602, 603, 605, 606, 615–619 (DON604 is hantavirus, DON620 is not Ebola). | New DONs detected automatically (RSS); figures entered after review. | 2026-10-23 | current |
 | [Africa CDC situation reports (Knowledge Hub)](https://khub.africacdc.org) | Contact follow-up (national and by province), treatment-centre bed occupancy, health-worker infections, province totals. Publication is irregular; see the data freshness table. | Automatic, hourly (PDF parsed). | 2026-10-02 | late |
 | [Pathoplexus (ebola-bdbv)](https://pathoplexus.org/ebola-bdbv) | Counts of 2026 genomes by collection week, province and release delay. Most 2026 genomes are under restricted-use terms; no sequences or accessions are republished. | Automatic, hourly (LAPIS API, aggregates only). | 2026-10-23 | current |
 | Curated humanitarian indicators | Displacement, food insecurity, orphans, collateral health impact, funding, access incidents. Figures older than 45 days are flagged on the dashboard. | By hand from published UN, NGO and peer-reviewed reports (each listed below). | 2026-10-06 | current |
@@ -24,11 +24,11 @@ updated: 2026-10-23 15:00 UTC
 ## Latest documents used
 
 - [Africa CDC Sitrep #132, October 2 2026](https://khub.africacdc.org/records/resource/bundibugyo-virus-disease-outbreak-situational-report-october-2-2026)
-- [WHO DON616](https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON616), 2026-08-28
 - [WHO DON617](https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON617), 2026-09-10
 - [WHO DON618](https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON618), 2026-09-25
 - [WHO DON619](https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON619), 2026-10-08
-- Kenya cases: Kenya MoH via CDC situation summary (2026-10-20)
+- [WHO DON622](https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON622), 2026-10-23
+- Kenya cases: Kenya MoH; WHO DON622 (2026-10-20)
 
 ## Contact follow-up figures
 
@@ -41,6 +41,7 @@ Published snapshots only; definitions differ by source, so they are not joined i
 | 2026-09-25 | 83.4% | [WHO DON618 (publication date)](https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON618) | monitored / requiring follow-up |
 | 2026-10-02 | 73.1% | [Africa CDC Sitrep #132](https://khub.africacdc.org/records/resource/bundibugyo-virus-disease-outbreak-situational-report-october-2-2026) | seen that day / due that day (DRC) |
 | 2026-10-06 | 80.4% | [WHO DON619](https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON619) | monitored / requiring follow-up |
+| 2026-10-20 | 79.7% | [WHO DON622](https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON622) | seen in last 24 h / under follow-up (six provinces) |
 
 ## Humanitarian and response figures (curated; last reviewed 2026-10-18)
 
