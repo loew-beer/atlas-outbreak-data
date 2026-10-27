@@ -3,7 +3,7 @@ title: "Ebola DRC 2026 — data sources"
 project: ebola-drc-2026
 type: sources
 generated_by: sources_list.py
-updated: 2026-10-27 13:00 UTC
+updated: 2026-10-27 14:01 UTC
 ---
 
 # Data sources — Ebola (Bundibugyo) DRC 2026
@@ -14,7 +14,7 @@ updated: 2026-10-27 13:00 UTC
 
 | Source | Provides | How collected | Latest data | Status |
 |---|---|---|---|---|
-| [INSP situation reports via INRB-UMIE](https://github.com/INRB-UMIE/Ebola_DRC_2026) | National and health-zone confirmed cases, deaths, recoveries, suspected cases in isolation, PCR machine list, WorldPop population by zone. Primary source for all case series and charts. Notification dates, not onset dates. Code MIT; data reused with attribution. | Automatic, hourly (digitised INSP sitreps; INRB-UMIE build files). | 2026-10-24 | current |
+| [INSP situation reports via INRB-UMIE](https://github.com/INRB-UMIE/Ebola_DRC_2026) | National and health-zone confirmed cases, deaths, recoveries, suspected cases in isolation, PCR machine list, WorldPop population by zone. Primary source for all case series and charts. Notification dates, not onset dates. Code MIT; data reused with attribution. | Automatic, hourly (digitised INSP sitreps; INRB-UMIE build files). | 2026-10-25 | current |
 | [CDC Ebola situation summary](https://www.cdc.gov/ebola/situation-summary/index.html) | Confirmed cases and deaths by country (DRC, Uganda, Kenya, France). Used for headline totals across countries and as a cross-check of INSP. | Automatic, hourly, through a public reader proxy (r.jina.ai) because CDC blocks server requests. | 2026-10-25 | current |
 | [WHO Disease Outbreak News](https://www.who.int/emergencies/disease-outbreak-news) | Official situation updates: totals, provinces, contact follow-up, risk assessment. Ebola DONs in this outbreak: DON602, 603, 605, 606, 615–619 (DON604 is hantavirus, DON620 is not Ebola). | New DONs detected automatically (RSS); figures entered after review. | 2026-10-23 | current |
 | [Africa CDC situation reports (Knowledge Hub)](https://khub.africacdc.org) | Contact follow-up (national and by province), treatment-centre bed occupancy, health-worker infections, province totals. Publication is irregular; see the data freshness table. | Automatic, hourly (PDF parsed). | 2026-10-02 | stale |
