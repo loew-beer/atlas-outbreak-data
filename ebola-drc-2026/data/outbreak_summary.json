@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "BDBV Outbreak Summary Data",
-    "last_updated": "2026-10-27T15:00:01Z",
+    "last_updated": "2026-10-27T16:00:01Z",
     "sources": {
       "epidemiological": "CDC situation summary (10-25); WHO DON619 (2026-10-06); INRB-UMIE upstream pipeline",
       "genomic": "Pathoplexus, Virological.org, NCBI GenBank",
@@ -24,12 +24,12 @@
     "pheic_date": "2026-05-17",
     "status": "ACTIVE",
     "who_grade": "GRADE 3",
-    "outbreak_day": 185
+    "outbreak_day": 186
   },
   "situation": {
     "cases": {
-      "confirmed": 9995,
-      "confirmed_drc": 9964,
+      "confirmed": 10091,
+      "confirmed_drc": 10060,
       "confirmed_uganda": 20,
       "confirmed_france": 1,
       "confirmed_kenya": 9,
@@ -43,8 +43,8 @@
       "confirmed_nigeria": 1
     },
     "deaths": {
-      "confirmed": 4845,
-      "confirmed_drc": 4841,
+      "confirmed": 4891,
+      "confirmed_drc": 4887,
       "confirmed_uganda": 2,
       "confirmed_kenya": 2,
       "confirmed_france": 0,
@@ -64,7 +64,7 @@
     "cfr": {
       "confirmed_only": 0.4847,
       "combined": 0.232,
-      "caveat": "Death proportion: 48.5% (CDC situation summary, as of 2026-10-25: 4,845 deaths / 9,995 confirmed). Right-censored lower bound; outcomes of active cases unknown.",
+      "caveat": "Death proportion: 48.5% (CDC situation summary, as of 2026-10-25: 4,891 deaths / 10,091 confirmed). Right-censored lower bound; outcomes of active cases unknown.",
       "confirmed_only_wilson_lo": 0.4712,
       "confirmed_only_wilson_hi": 0.4922,
       "confirmed_only_scope": "All confirmed cases (DRC+Uganda+France)"
