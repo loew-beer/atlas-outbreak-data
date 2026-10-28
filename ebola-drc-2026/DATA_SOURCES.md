@@ -3,7 +3,7 @@ title: "Ebola DRC 2026 — data sources"
 project: ebola-drc-2026
 type: sources
 generated_by: sources_list.py
-updated: 2026-10-27 15:00 UTC
+updated: 2026-10-28 06:00 UTC
 ---
 
 # Data sources — Ebola (Bundibugyo) DRC 2026
@@ -63,10 +63,15 @@ Published snapshots only; definitions differ by source, so they are not joined i
 | PARTNERS trial (MBP134, remdesivir) | Enrolling since 2026-07-02; no results published |  | [Science](https://www.science.org/content/article/first-ever-treatment-trial-ebola-bundibugyo-kicks-congo) |
 | Ervebo ring-vaccination trial (cross-protection) | Phase 3, 70,000 doses made available; no efficacy results published. Evidence for cross-protection is limited |  | [Al Jazeera; medRxiv meta-analysis](https://www.aljazeera.com/news/2026/8/7/ebola-cases-top-4000-in-drc-as-who-urges-ervebo-vaccine-trial) |
 
-## Reviewed literature and reports (31 approved)
+## Reviewed literature and reports (39 approved)
 
 Found by the twice-weekly scan (UN News, MSF, Europe PMC) and approved by a person before use.
 
+- 2026-11-01: [Hope for efficacious vaccines for Bundibugyo virus](https://doi.org/10.1016/s1473-3099(26)00535-9) — The Lancet. Infectious diseases
+- 2026-10-23: [Ebola: Nigeria announces first Bundibugyo case, as numbers continue to rise in Kenya and DRC](https://doi.org/10.1136/bmj-2026-101225) — BMJ (Clinical research ed.)
+- 2026-10-23: [‘Burden and loss’ builds in DR Congo, as Kenya strengthens Ebola containment](https://news.un.org/feed/view/en/story/2026/10/1168655) — UN News
+- 2026-10-22: [Vaccine trial is a ray of hope in Congo's Ebola epidemic](https://doi.org/10.1126/science.aen4280) — Science (New York, N.Y.)
+- 2026-10-22: [DR Congo: Ebola responders under pressure as outbreak expands](https://news.un.org/feed/view/en/story/2026/10/1168647) — UN News
 - 2026-10-21: [WHO supports Nigeria after first Ebola case confirmed](https://news.un.org/feed/view/en/story/2026/10/1168637) — UN News
 - 2026-10-16: [Early detection of immunoglobulin A against a vaccine backbone protein enables fast, durable, and objective identification of individuals vaccinated against Ebola virus](https://doi.org/10.1016/j.ebiom.2026.106515) — EBioMedicine
 - 2026-10-16: [WHO scales up Ebola readiness in 22 countries across three continents](https://news.un.org/feed/view/en/story/2026/10/1168613) — UN News
@@ -79,6 +84,7 @@ Found by the twice-weekly scan (UN News, MSF, Europe PMC) and approved by a pers
 - 2026-10-13: [Cross-reactive T-cell responses against BDBV in humans after rVSVΔG-ZEBOV-GP vaccination](https://doi.org/10.1016/s1473-3099(26)00529-3) — The Lancet. Infectious diseases
 - 2026-10-12: [Building equitable epidemic response: the Interdisciplinary Consortium for Epidemics Research (ICER) position on Bundibugyo ebolavirus and regional preparedness in sub-Saharan Africa](https://doi.org/10.1016/j.ijid.2026.109163) — International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases
 - 2026-10-12: [Bundibugyo Ebola virus disease re-emergence: lessons from earlier outbreaks](https://doi.org/10.1080/23744235.2026.2736028) — Infectious diseases (London, England)
+- 2026-10-09: [Immunomodulatory RIG-I Agonist SLR14 Confers Protection Against a Range of Highly Pathogenic Negative Sense RNA viruses](https://europepmc.org/article/PMC/PMC13692271) — bioRxiv : the preprint server for biology
 - 2026-10-08: [Bundibugyo virus: coordinating a cross-border response](https://doi.org/10.1016/s0140-6736(26)01980-x) — Lancet (London, England)
 - 2026-10-08: [Sixteen Days Undetected: Growth Dynamics and the Case for Pre-Positioned Response Capacity in the 2026 Bundibugyo Virus Disease Outbreak, Democratic Republic of the Congo](https://doi.org/10.1016/j.ijid.2026.109170) — International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases
 - 2026-10-08: [Ebola: Kenya marks first case and fatality in Bundibugyo strain outbreak](https://doi.org/10.1136/bmj-2026-101091) — BMJ (Clinical research ed.)
@@ -98,6 +104,8 @@ Found by the twice-weekly scan (UN News, MSF, Europe PMC) and approved by a pers
 - 2026-09-28: [How mistrust emerged in real time in the Bundibugyo virus disease outbreak: 'Ebola business', social media and the history of mistrust in Ebola epidemics in eastern Congo](https://doi.org/10.1136/bmjgh-2026-025522) — BMJ global health
 - 2026-09-28: [DR Congo Ebola emergency: Calls grow for urgent humanitarian access](https://news.un.org/feed/view/en/story/2026/09/1168465) — UN News
 - 2026-09-25: [From isolation to burial: dignity in the Bundibugyo virus disease response](https://doi.org/10.1016/s0140-6736(26)01905-7) — Lancet (London, England)
+- 2026-09-18: [Re-emergence of Bundibugyo Ebola virus disease in Central Africa: A critical threat to regional health security and the imperative for cross-border surveillance and epidemic preparedness in East Africa](https://doi.org/10.1016/j.nmni.2026.101852) — New microbes and new infections
+- 2026-09-16: [Implementing an intra outbreak ring vaccination clinical trial for Sudan Ebola virus disease within four days of outbreak notification in Uganda](https://doi.org/10.1080/22221751.2026.2731496) — Emerging microbes & infections
 
 ## Methods and reference values
 
