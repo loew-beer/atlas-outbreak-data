@@ -807,10 +807,10 @@
       "new_suspected": 0
     },
     {
-      "date": "2026-10-31",
-      "new_confirmed": 116,
+      "date": "2026-11-01",
+      "new_confirmed": 10532,
       "new_suspected": 0,
-      "source_note": "CDC aggregate (10-29\u219210-31), 2d",
+      "source_note": "CDC aggregate (10-29\u219211-01), 3d",
       "cdc_supplement": true
     }
   ],
@@ -1860,6 +1860,16 @@
       "source": "INRB-UMIE upstream",
       "deaths": 5103,
       "recovered": 2824
+    },
+    {
+      "date": "2026-11-01",
+      "confirmed_cases": 10532,
+      "confirmed_deaths": 5126,
+      "suspected_cases": null,
+      "suspected_deaths": null,
+      "total_cases": null,
+      "total_deaths": null,
+      "cdc_supplement": true
     }
   ],
   "cases_by_health_zone": [
@@ -3508,19 +3518,19 @@
     "zones_reporting": 69
   },
   "cdc_update": {
-    "date": "2026-10-31",
-    "date_drc": "2026-10-31",
-    "date_uganda": "2026-10-31",
+    "date": "2026-11-01",
+    "date_drc": "2026-11-01",
+    "date_uganda": "2026-11-01",
     "date_france": null,
-    "confirmed_drc": 10467,
-    "confirmed_deaths_drc": 5103,
+    "confirmed_drc": 10532,
+    "confirmed_deaths_drc": 5126,
     "confirmed_uganda": 20,
     "confirmed_deaths_uganda": 2,
     "confirmed_france": 1,
     "confirmed_deaths_france": 0,
-    "total_confirmed": 10498,
-    "total_deaths": 5107,
-    "source": "CDC ebola-case-counts-web-updates.csv (DRC: 2026-10-31, Uganda: 2026-10-31, France: ?)"
+    "total_confirmed": 10563,
+    "total_deaths": 5130,
+    "source": "CDC ebola-case-counts-web-updates.csv (DRC: 2026-11-01, Uganda: 2026-11-01, France: ?)"
   },
   "upstream_last_updated": "2026-11-03T11:00:08Z",
   "upstream_commit": "1157a2e",
