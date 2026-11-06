@@ -825,6 +825,13 @@
       "date": "2026-11-03",
       "new_confirmed": 136,
       "new_suspected": 0
+    },
+    {
+      "date": "2026-11-04",
+      "new_confirmed": 10741,
+      "new_suspected": 0,
+      "source_note": "CDC aggregate (11-03\u219211-04), 1d",
+      "cdc_supplement": true
     }
   ],
   "cumulative_national": [
@@ -3547,5 +3554,20 @@
   },
   "upstream_last_updated": "2026-11-06T14:00:08Z",
   "upstream_commit": "ccecd3e",
-  "upstream_built_at": "2026-11-06T13:15:02+00:00"
+  "upstream_built_at": "2026-11-06T13:15:02+00:00",
+  "cdc_update": {
+    "date": "2026-11-04",
+    "date_drc": "2026-11-04",
+    "date_uganda": "2026-11-04",
+    "date_france": null,
+    "confirmed_drc": 10741,
+    "confirmed_deaths_drc": 5230,
+    "confirmed_uganda": 20,
+    "confirmed_deaths_uganda": 2,
+    "confirmed_france": 1,
+    "confirmed_deaths_france": 0,
+    "total_confirmed": 10772,
+    "total_deaths": 5234,
+    "source": "CDC ebola-case-counts-web-updates.csv (DRC: 2026-11-04, Uganda: 2026-11-04, France: ?)"
+  }
 }
