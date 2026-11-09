@@ -3,7 +3,7 @@ title: "Ebola DRC 2026 — data sources"
 project: ebola-drc-2026
 type: sources
 generated_by: sources_list.py
-updated: 2026-11-07 13:00 UTC
+updated: 2026-11-09 09:00 UTC
 ---
 
 # Data sources — Ebola (Bundibugyo) DRC 2026
@@ -63,10 +63,11 @@ Published snapshots only; definitions differ by source, so they are not joined i
 | PARTNERS trial (MBP134, remdesivir) | Enrolling since 2026-07-02; no results published |  | [Science](https://www.science.org/content/article/first-ever-treatment-trial-ebola-bundibugyo-kicks-congo) |
 | Ervebo ring-vaccination trial (cross-protection) | Phase 3, 70,000 doses made available; no efficacy results published. Evidence for cross-protection is limited |  | [Al Jazeera; medRxiv meta-analysis](https://www.aljazeera.com/news/2026/8/7/ebola-cases-top-4000-in-drc-as-who-urges-ervebo-vaccine-trial) |
 
-## Reviewed literature and reports (54 approved)
+## Reviewed literature and reports (62 approved)
 
 Found by the twice-weekly scan (UN News, MSF, Europe PMC) and approved by a person before use.
 
+- 2026-11-05: [Two new Ebola vaccines to join DR Congo clinical trial](https://news.un.org/feed/view/en/story/2026/11/1168742) — UN News
 - 2026-11-01: [Hope for efficacious vaccines for Bundibugyo virus](https://doi.org/10.1016/s1473-3099(26)00535-9) — The Lancet. Infectious diseases
 - 2026-10-30: [Bundibugyo Ebola in 2026: outbreak control must include research](https://doi.org/10.1080/23744235.2026.2757747) — Infectious diseases (London, England)
 - 2026-10-30: [Nigeria responds to Ebola Bundibugyo virus case](https://doi.org/10.1016/j.lanmic.2026.101589) — The Lancet. Microbe
@@ -96,6 +97,7 @@ Found by the twice-weekly scan (UN News, MSF, Europe PMC) and approved by a pers
 - 2026-10-12: [Bundibugyo Ebola virus disease re-emergence: lessons from earlier outbreaks](https://doi.org/10.1080/23744235.2026.2736028) — Infectious diseases (London, England)
 - 2026-10-09: [Beyond Hemorrhagic Fever: Hepatic and Endothelial Dysfunction in Ebola Virus Disease](https://doi.org/10.3390/biology15201798) — Biology
 - 2026-10-09: [Immunomodulatory RIG-I Agonist SLR14 Confers Protection Against a Range of Highly Pathogenic Negative Sense RNA viruses](https://europepmc.org/article/PMC/PMC13692271) — bioRxiv : the preprint server for biology
+- 2026-10-08: [The WHO interim Medical Countermeasures Network for public health emergencies](https://doi.org/10.2471/blt.26.295961) — Bulletin of the World Health Organization
 - 2026-10-08: [Bundibugyo virus: coordinating a cross-border response](https://doi.org/10.1016/s0140-6736(26)01980-x) — Lancet (London, England)
 - 2026-10-08: [Sixteen Days Undetected: Growth Dynamics and the Case for Pre-Positioned Response Capacity in the 2026 Bundibugyo Virus Disease Outbreak, Democratic Republic of the Congo](https://doi.org/10.1016/j.ijid.2026.109170) — International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases
 - 2026-10-08: [Ebola: Kenya marks first case and fatality in Bundibugyo strain outbreak](https://doi.org/10.1136/bmj-2026-101091) — BMJ (Clinical research ed.)
@@ -121,6 +123,12 @@ Found by the twice-weekly scan (UN News, MSF, Europe PMC) and approved by a pers
 - 2026-09-18: [Re-emergence of Bundibugyo Ebola virus disease in Central Africa: A critical threat to regional health security and the imperative for cross-border surveillance and epidemic preparedness in East Africa](https://doi.org/10.1016/j.nmni.2026.101852) — New microbes and new infections
 - 2026-09-16: [Implementing an intra outbreak ring vaccination clinical trial for Sudan Ebola virus disease within four days of outbreak notification in Uganda](https://doi.org/10.1080/22221751.2026.2731496) — Emerging microbes & infections
 - 2026-09-08: [Community event-based surveillance as trust infrastructure for Bundibugyo Ebola response](https://doi.org/10.1016/j.ijid.2026.109109) — International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases
+- 2026-08-31: [An urgent opportunity to ensure children's access to oral post-exposure prophylaxis trials for Bundibugyo virus disease](https://doi.org/10.1016/s2352-4642(26)00238-5) — The Lancet. Child & adolescent health
+- 2026-08-27: [Epidemiology of Sudan ebolavirus disease cases in Uganda, January-April, 2025](https://doi.org/10.1016/j.ijid.2026.109075) — International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases
+- 2026-08-27: [Surveillance for Asiatic filoviruses and zoonotic paramyxoviruses at a perceived wildlife-human interface](https://doi.org/10.1080/22221751.2026.2713324) — Emerging microbes & infections
+- 2026-08-16: [Governance frameworks, not just products: Overcoming surveillance blind spots in the 2026 Bundibugyo virus outbreak](https://doi.org/10.1016/j.ijid.2026.109065) — International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases
+- 2026-08-09: [Underinvestment in diagnostic and vaccine research &amp; development has put the world at greater risk from the Bundibugyo virus epidemic in 2026](https://doi.org/10.1080/21505594.2026.2710544) — Virulence
+- 2026-08-03: [Development and characterization of a recombinant Bundibugyo virus expressing a fluorescent reporter protein](https://doi.org/10.1080/22221751.2026.2709847) — Emerging microbes & infections
 
 ## Methods and reference values
 
