@@ -1,9 +1,9 @@
 {
   "metadata": {
     "title": "BDBV Outbreak Summary Data",
-    "last_updated": "2026-11-17T14:00:01Z",
+    "last_updated": "2026-11-17T15:00:01Z",
     "sources": {
-      "epidemiological": "CDC situation summary (11-14); WHO DON619 (2026-10-06); INRB-UMIE upstream pipeline",
+      "epidemiological": "CDC situation summary (11-15); WHO DON619 (2026-10-06); INRB-UMIE upstream pipeline",
       "genomic": "Pathoplexus, Virological.org, NCBI GenBank",
       "response": "WHO, MSF, Africa CDC, CDC HAN 00530"
     },
@@ -24,12 +24,12 @@
     "pheic_date": "2026-05-17",
     "status": "ACTIVE",
     "who_grade": "GRADE 3",
-    "outbreak_day": 206
+    "outbreak_day": 207
   },
   "situation": {
     "cases": {
-      "confirmed": 11407,
-      "confirmed_drc": 11376,
+      "confirmed": 11463,
+      "confirmed_drc": 11432,
       "confirmed_uganda": 20,
       "confirmed_france": 1,
       "confirmed_kenya": 9,
@@ -43,8 +43,8 @@
       "confirmed_nigeria": 1
     },
     "deaths": {
-      "confirmed": 5572,
-      "confirmed_drc": 5568,
+      "confirmed": 5597,
+      "confirmed_drc": 5593,
       "confirmed_uganda": 2,
       "confirmed_kenya": 2,
       "confirmed_france": 0,
@@ -62,9 +62,9 @@
       "confirmed_nigeria": 0
     },
     "cfr": {
-      "confirmed_only": 0.4885,
+      "confirmed_only": 0.4883,
       "combined": 0.232,
-      "caveat": "Death proportion: 48.9% (CDC situation summary, as of 2026-11-14: 5,572 deaths / 11,407 confirmed). Right-censored lower bound; outcomes of active cases unknown.",
+      "caveat": "Death proportion: 48.8% (CDC situation summary, as of 2026-11-15: 5,597 deaths / 11,463 confirmed). Right-censored lower bound; outcomes of active cases unknown.",
       "confirmed_only_wilson_lo": 0.4712,
       "confirmed_only_wilson_hi": 0.4922,
       "confirmed_only_scope": "All confirmed cases (DRC+Uganda+France)"
@@ -77,7 +77,7 @@
       "travel_linked": 6,
       "travel_linked_of": 11,
       "travel_linked_don": "WHO DON605",
-      "cdc_date": "2026-11-14",
+      "cdc_date": "2026-11-15",
       "france": {
         "cases": 1,
         "deaths": 0,
