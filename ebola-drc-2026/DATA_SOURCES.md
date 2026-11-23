@@ -3,7 +3,7 @@ title: "Ebola DRC 2026 — data sources"
 project: ebola-drc-2026
 type: sources
 generated_by: sources_list.py
-updated: 2026-11-23 18:00 UTC
+updated: 2026-11-23 19:00 UTC
 ---
 
 # Data sources — Ebola (Bundibugyo) DRC 2026
@@ -63,11 +63,19 @@ Published snapshots only; definitions differ by source, so they are not joined i
 | PARTNERS trial (MBP134, remdesivir) | Enrolling since 2026-07-02; no results published |  | [Science](https://www.science.org/content/article/first-ever-treatment-trial-ebola-bundibugyo-kicks-congo) |
 | Ervebo ring-vaccination trial (cross-protection) | Phase 3, 70,000 doses made available; no efficacy results published. Evidence for cross-protection is limited |  | [Al Jazeera; medRxiv meta-analysis](https://www.aljazeera.com/news/2026/8/7/ebola-cases-top-4000-in-drc-as-who-urges-ervebo-vaccine-trial) |
 
-## Reviewed literature and reports (62 approved)
+## Reviewed literature and reports (70 approved)
 
 Found by the twice-weekly scan (UN News, MSF, Europe PMC) and approved by a person before use.
 
+- 2026-11-20: [Bundibugyo virus disease outbreak in the Democratic Republic of the Congo and Uganda at day 100: an ESCMID Emerging Infections Subcommittee update](https://doi.org/10.1016/j.cmi.2026.10.042) — Clinical microbiology and infection : the official publication of the European Society of Clinical Microbiology and Infectious Diseases
+- 2026-11-18: [Slow to see, slower to stop-Bundibugyo virus disease in 2026](https://doi.org/10.1016/j.lanmic.2026.101593) — The Lancet. Microbe
+- 2026-11-18: [Beyond human cases: reducing Ebola spillover risk in the Democratic Republic of the Congo](https://doi.org/10.1186/s44263-026-00334-2) — BMC global and public health
+- 2026-11-17: [Viral persistence and post-acute outcomes following high-consequence negative-sense RNA virus infections](https://doi.org/10.1080/21505594.2026.2757948) — Virulence
+- 2026-11-16: [Evaluation of published Filovirus RT-PCR assays for the detection of Bundibugyo virus, 2026](https://doi.org/10.1016/j.jcv.2026.106025) — Journal of clinical virology : the official publication of the Pan American Society for Clinical Virology
+- 2026-11-05: [National Ebola preparedness policy architecture and health system readiness in the Democratic Republic of the Congo and Uganda: a scoping review anchored in the 2026 Bundibugyo outbreak](https://doi.org/10.1186/s40249-026-01521-x) — Infectious diseases of poverty
 - 2026-11-05: [Two new Ebola vaccines to join DR Congo clinical trial](https://news.un.org/feed/view/en/story/2026/11/1168742) — UN News
+- 2026-11-04: [Centers for Disease Control and Prevention Public Health Science Priorities for the 2026 Ebola Outbreak Caused by Bundibugyo Virus](https://doi.org/10.1177/00333549261496865) — Public health reports (Washington, D.C. : 1974)
+- 2026-11-03: [Bundibugyo Ebola outbreak: DRC cases climb to more than 10 000](https://doi.org/10.1136/bmj-2026-101314) — BMJ (Clinical research ed.)
 - 2026-11-01: [Hope for efficacious vaccines for Bundibugyo virus](https://doi.org/10.1016/s1473-3099(26)00535-9) — The Lancet. Infectious diseases
 - 2026-10-30: [Bundibugyo Ebola in 2026: outbreak control must include research](https://doi.org/10.1080/23744235.2026.2757747) — Infectious diseases (London, England)
 - 2026-10-30: [Nigeria responds to Ebola Bundibugyo virus case](https://doi.org/10.1016/j.lanmic.2026.101589) — The Lancet. Microbe
