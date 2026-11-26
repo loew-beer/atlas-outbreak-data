@@ -3836,7 +3836,7 @@
     "national_suspected_deaths": 0,
     "zones_reporting": 71
   },
-  "upstream_last_updated": "2026-11-26T11:00:12Z",
-  "upstream_commit": "05e40b60",
-  "upstream_built_at": "2026-11-26T10:56:30+00:00"
+  "upstream_last_updated": "2026-11-26T12:00:27Z",
+  "upstream_commit": "a102f3f5",
+  "upstream_built_at": "2026-11-26T11:02:11+00:00"
 }
